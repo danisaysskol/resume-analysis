@@ -1,422 +1,732 @@
 [
   {
-    "extracted_id": "dbc44eb8-56b8-4dde-97cb-3d3daa7b3bfc",
+    "extracted_id": "5f76e391-6bfe-4848-bd7c-6b68e1bd0f4c",
     "source_type": "user_profile",
-    "source_id": "5c42f0f2-2b0a-43dd-83be-d227f113c5f5",
-    "skill_id": "23943f0d-33e4-4822-949a-ff3d1ed060f1",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "e40b2048-46f2-461f-afb8-d888ee1f8d66",
+    "raw_text": "API Testing (Expert)",
+    "confidence": 0.95,
+    "proficiency": "Expert",
+    "extracted_at": "2025-04-16T21:21:18.432580"
+  },
+  {
+    "extracted_id": "d8b1e646-a145-42ed-a285-d3f03e579175",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "6fb8a642-3728-4767-a5ce-a2c82c6491a4",
+    "raw_text": "Regression Testing (Expert)",
+    "confidence": 0.95,
+    "proficiency": "Expert",
+    "extracted_at": "2025-04-16T21:21:18.432703"
+  },
+  {
+    "extracted_id": "314d1084-819f-45db-bbcc-32feeb610e99",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "c8c01105-c5a9-4daf-87f2-e0771a3f1ca9",
     "raw_text": "Selenium Webdriver (Expert)",
-    "confidence": 0.99,
-    "proficiency": "Expert",
-    "extracted_at": "2025-04-16T21:09:39.106585"
-  },
-  {
-    "extracted_id": "e37167a3-1ae3-4fe9-a46f-1d7d386584cc",
-    "source_type": "user_profile",
-    "source_id": "5c42f0f2-2b0a-43dd-83be-d227f113c5f5",
-    "skill_id": "f9f5b0c4-7610-4139-be37-e127bef6e585",
-    "raw_text": "Appium (Proficient)",
     "confidence": 0.95,
-    "proficiency": "Proficient",
-    "extracted_at": "2025-04-16T21:09:39.106714"
+    "proficiency": "Expert",
+    "extracted_at": "2025-04-16T21:21:18.432741"
   },
   {
-    "extracted_id": "298d9614-a047-4871-a1c7-71e46980b8cb",
+    "extracted_id": "5aa287f1-e490-4a7b-992d-4c39f70a4022",
     "source_type": "user_profile",
-    "source_id": "5c42f0f2-2b0a-43dd-83be-d227f113c5f5",
-    "skill_id": "0859dc42-b113-44ae-97cf-7e728fa8fc79",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "3ac1c0af-1e97-46da-9ce8-706d55ff7ea4",
     "raw_text": "JMeter (Expert)",
-    "confidence": 0.99,
-    "proficiency": "Expert",
-    "extracted_at": "2025-04-16T21:09:39.106751"
-  },
-  {
-    "extracted_id": "f7ab1762-36b8-418a-9949-f0dfb7e2aaa9",
-    "source_type": "user_profile",
-    "source_id": "5c42f0f2-2b0a-43dd-83be-d227f113c5f5",
-    "skill_id": "f26e579c-4690-427c-9741-fb7874e5ae4c",
-    "raw_text": "Java (Proficient)",
     "confidence": 0.95,
-    "proficiency": "Proficient",
-    "extracted_at": "2025-04-16T21:09:39.106782"
+    "proficiency": "Expert",
+    "extracted_at": "2025-04-16T21:21:18.432773"
   },
   {
-    "extracted_id": "999fe123-0c1b-408e-9555-3fcd74625eb0",
+    "extracted_id": "c2822443-b78c-49d1-bc18-499dfed3fdb7",
     "source_type": "user_profile",
-    "source_id": "5c42f0f2-2b0a-43dd-83be-d227f113c5f5",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "29591678-14dd-486b-a2d0-e9d8ad776243",
+    "raw_text": "Java (Proficient)",
+    "confidence": 0.85,
+    "proficiency": "Proficient",
+    "extracted_at": "2025-04-16T21:21:18.432802"
+  },
+  {
+    "extracted_id": "cf7b0ed8-4f64-43b0-af58-dadc304b80f8",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
     "skill_id": "3",
     "raw_text": "SQL (Proficient)",
-    "confidence": 0.95,
-    "proficiency": "Proficient",
-    "extracted_at": "2025-04-16T21:09:39.106814"
-  },
-  {
-    "extracted_id": "f0944236-ec67-4bd1-8ef9-258ca2041065",
-    "source_type": "user_profile",
-    "source_id": "5c42f0f2-2b0a-43dd-83be-d227f113c5f5",
-    "skill_id": "f7dd1ce1-b6ec-404e-b344-17afb020e5b6",
-    "raw_text": "API Testing (Expert)",
-    "confidence": 0.99,
-    "proficiency": "Expert",
-    "extracted_at": "2025-04-16T21:09:39.106853"
-  },
-  {
-    "extracted_id": "9b36e43d-7eff-4376-a289-e0e895f6330a",
-    "source_type": "user_profile",
-    "source_id": "5c42f0f2-2b0a-43dd-83be-d227f113c5f5",
-    "skill_id": "006546d7-be0e-4c2a-8b1d-25a326a7d8cc",
-    "raw_text": "Regression Testing (Expert)",
-    "confidence": 0.99,
-    "proficiency": "Expert",
-    "extracted_at": "2025-04-16T21:09:39.106886"
-  },
-  {
-    "extracted_id": "0b47c036-7fd0-4868-9a7d-5d9e3882b199",
-    "source_type": "user_profile",
-    "source_id": "5c42f0f2-2b0a-43dd-83be-d227f113c5f5",
-    "skill_id": "81b18d8e-55db-4e9d-a626-43125441ff8c",
-    "raw_text": "Test Planning (Expert)",
-    "confidence": 0.99,
-    "proficiency": "Expert",
-    "extracted_at": "2025-04-16T21:09:39.106921"
-  },
-  {
-    "extracted_id": "51b39a39-1d86-41e8-b888-13a7d3341cff",
-    "source_type": "user_profile",
-    "source_id": "5c42f0f2-2b0a-43dd-83be-d227f113c5f5",
-    "skill_id": "9663d941-ea85-4554-9d8b-e827ca89bd83",
-    "raw_text": "Test Scripting (Expert)",
-    "confidence": 0.99,
-    "proficiency": "Expert",
-    "extracted_at": "2025-04-16T21:09:39.106950"
-  },
-  {
-    "extracted_id": "3fba4955-ca7f-421d-822d-1649168f9d24",
-    "source_type": "user_profile",
-    "source_id": "5c42f0f2-2b0a-43dd-83be-d227f113c5f5",
-    "skill_id": "18e9d7ce-fa57-4d84-a308-1095572b79e1",
-    "raw_text": "JIRA (Expert)",
-    "confidence": 0.99,
-    "proficiency": "Expert",
-    "extracted_at": "2025-04-16T21:09:39.106977"
-  },
-  {
-    "extracted_id": "3bf095bb-c9bd-47f6-94e1-5ff55135ff51",
-    "source_type": "user_profile",
-    "source_id": "5c42f0f2-2b0a-43dd-83be-d227f113c5f5",
-    "skill_id": "e4f41fd9-a131-43c5-b9a3-b6e9c7cc7b55",
-    "raw_text": "TFS (Proficient)",
-    "confidence": 0.95,
-    "proficiency": "Proficient",
-    "extracted_at": "2025-04-16T21:09:39.107010"
-  },
-  {
-    "extracted_id": "e4f1385f-9a1a-4125-91d3-c984e288ee8e",
-    "source_type": "user_profile",
-    "source_id": "5c42f0f2-2b0a-43dd-83be-d227f113c5f5",
-    "skill_id": "8fb383a6-3f18-4580-9abc-5b29b0fc3925",
-    "raw_text": "Postman (Expert)",
-    "confidence": 0.99,
-    "proficiency": "Expert",
-    "extracted_at": "2025-04-16T21:09:39.107047"
-  },
-  {
-    "extracted_id": "25dc4676-c8eb-4ed0-ba38-556893009e7a",
-    "source_type": "user_profile",
-    "source_id": "5c42f0f2-2b0a-43dd-83be-d227f113c5f5",
-    "skill_id": "b361d81f-7f05-4fe4-bf85-b57ecbf4e28a",
-    "raw_text": "RestClient (Proficient)",
-    "confidence": 0.95,
-    "proficiency": "Proficient",
-    "extracted_at": "2025-04-16T21:09:39.107080"
-  },
-  {
-    "extracted_id": "3a38bc2f-7bf2-4f58-b104-6d81183d3bcb",
-    "source_type": "user_profile",
-    "source_id": "5c42f0f2-2b0a-43dd-83be-d227f113c5f5",
-    "skill_id": "77f9c71e-8d8f-4ebc-910b-c26e105310c1",
-    "raw_text": "SOAPUI (Proficient)",
-    "confidence": 0.95,
-    "proficiency": "Proficient",
-    "extracted_at": "2025-04-16T21:09:39.107113"
-  },
-  {
-    "extracted_id": "fc76b283-36f5-44aa-b6da-6e489474cdae",
-    "source_type": "user_profile",
-    "source_id": "5c42f0f2-2b0a-43dd-83be-d227f113c5f5",
-    "skill_id": "3ff65360-f2bb-4da3-a057-0b363d948b6d",
-    "raw_text": "Playwright (Proficient)",
-    "confidence": 0.95,
-    "proficiency": "Proficient",
-    "extracted_at": "2025-04-16T21:09:39.107145"
-  },
-  {
-    "extracted_id": "f216d68d-15aa-4a1c-ac7f-919438e73a7f",
-    "source_type": "user_profile",
-    "source_id": "5c42f0f2-2b0a-43dd-83be-d227f113c5f5",
-    "skill_id": "8d32607b-ca09-4e85-8af0-2f1738dbbbc3",
-    "raw_text": "CI/CD (Intermediate)",
     "confidence": 0.85,
+    "proficiency": "Proficient",
+    "extracted_at": "2025-04-16T21:21:18.432834"
+  },
+  {
+    "extracted_id": "15f5943c-f046-44fe-ac85-8be57cb99e22",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "ffbd3ee8-b779-4b9a-a6a9-b8f5662aaa8c",
+    "raw_text": "Test Planning (Expert)",
+    "confidence": 0.95,
+    "proficiency": "Expert",
+    "extracted_at": "2025-04-16T21:21:18.432869"
+  },
+  {
+    "extracted_id": "a7297b25-1cb5-41f0-a4c5-f4cf79d72371",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "0e588f10-55dd-4d14-a751-14d1f798ab3c",
+    "raw_text": "Test Scripting (Expert)",
+    "confidence": 0.95,
+    "proficiency": "Expert",
+    "extracted_at": "2025-04-16T21:21:18.432897"
+  },
+  {
+    "extracted_id": "6dad1c85-325b-40ee-a3e1-707c2efe805e",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "ec8f2fe5-470f-4fb0-81ca-03ef241592de",
+    "raw_text": "JIRA (Expert)",
+    "confidence": 0.95,
+    "proficiency": "Expert",
+    "extracted_at": "2025-04-16T21:21:18.432925"
+  },
+  {
+    "extracted_id": "6855ebd4-19c8-4921-892e-a9b7510df7c8",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "2c249b30-35cb-49ba-92b5-1d319748bafb",
+    "raw_text": "TFS (Proficient)",
+    "confidence": 0.85,
+    "proficiency": "Proficient",
+    "extracted_at": "2025-04-16T21:21:18.432954"
+  },
+  {
+    "extracted_id": "84ff6bcf-4e22-40a8-b373-f36644b1f1cb",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "44fed5bd-e0b2-48ac-9eb3-613369a625d4",
+    "raw_text": "Postman (Expert)",
+    "confidence": 0.95,
+    "proficiency": "Expert",
+    "extracted_at": "2025-04-16T21:21:18.432983"
+  },
+  {
+    "extracted_id": "e4407fb3-3fec-4c3f-b98a-6af78d2e317f",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "6ae23d96-c9b4-40a9-acf7-1625f1bc72f9",
+    "raw_text": "RestClient (Proficient)",
+    "confidence": 0.85,
+    "proficiency": "Proficient",
+    "extracted_at": "2025-04-16T21:21:18.433011"
+  },
+  {
+    "extracted_id": "883d95e8-0264-4833-b234-228580ec2a0e",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "76b1538d-a618-42a7-8502-012a6a978428",
+    "raw_text": "SOAPUI (Proficient)",
+    "confidence": 0.85,
+    "proficiency": "Proficient",
+    "extracted_at": "2025-04-16T21:21:18.433039"
+  },
+  {
+    "extracted_id": "125df10d-b6bb-4df1-9827-317acaeeda04",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "ad7de303-2798-4a92-a383-eb051ffca8f7",
+    "raw_text": "Playwright (Proficient)",
+    "confidence": 0.85,
+    "proficiency": "Proficient",
+    "extracted_at": "2025-04-16T21:21:18.433066"
+  },
+  {
+    "extracted_id": "ee4b70b1-3e9e-4ba1-9cda-ef35aee9417d",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "1bfba5e6-37aa-4ddd-9fbb-4385824aaf7e",
+    "raw_text": "CI/CD (Intermediate)",
+    "confidence": 0.75,
     "proficiency": "Intermediate",
-    "extracted_at": "2025-04-16T21:09:39.107179"
+    "extracted_at": "2025-04-16T21:21:18.433094"
   },
   {
-    "extracted_id": "36b13a0c-7b9e-4c54-b589-a80a39397e3d",
+    "extracted_id": "1a1ed393-a61b-4886-82ea-feb5db9fc038",
     "source_type": "user_profile",
-    "source_id": "5c42f0f2-2b0a-43dd-83be-d227f113c5f5",
-    "skill_id": "ab0be3ad-db5e-4886-9e1d-733d36d5c221",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "a4176cb2-ab75-4342-ae05-f3c92834e450",
+    "raw_text": "Troubleshooting",
+    "confidence": 0.7,
+    "proficiency": null,
+    "extracted_at": "2025-04-16T21:21:18.433121"
+  },
+  {
+    "extracted_id": "a8979d9c-6ed9-4531-9ab3-2857557d2e62",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "8",
+    "raw_text": "Problem Solving",
+    "confidence": 0.7,
+    "proficiency": null,
+    "extracted_at": "2025-04-16T21:21:18.433150"
+  },
+  {
+    "extracted_id": "10448877-d38d-4b60-946b-9debef8bbfb1",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "9",
+    "raw_text": "Leadership",
+    "confidence": 0.7,
+    "proficiency": null,
+    "extracted_at": "2025-04-16T21:21:18.433178"
+  },
+  {
+    "extracted_id": "1067965d-5b42-4277-8a7d-69873f02e5de",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "13182ad6-fdb1-41a6-80bb-86b3ee5beb7b",
+    "raw_text": "Tests Design",
+    "confidence": 0.7,
+    "proficiency": null,
+    "extracted_at": "2025-04-16T21:21:18.433206"
+  },
+  {
+    "extracted_id": "12fa90f9-dca3-4f9e-90a2-ee2fa25d3d40",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "a273634c-d96a-4214-b757-214a9c3db195",
+    "raw_text": "Teamwork",
+    "confidence": 0.7,
+    "proficiency": null,
+    "extracted_at": "2025-04-16T21:21:18.433233"
+  },
+  {
+    "extracted_id": "0fc618e5-fac5-42f9-87e7-e1177673eec6",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "7",
+    "raw_text": "Communication",
+    "confidence": 0.7,
+    "proficiency": null,
+    "extracted_at": "2025-04-16T21:21:18.433260"
+  },
+  {
+    "extracted_id": "64a3f2e4-80c4-44de-97de-0290f73de096",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "26686bc3-1c8d-4606-945f-4c7f868df312",
+    "raw_text": "Analytical Skills",
+    "confidence": 0.7,
+    "proficiency": null,
+    "extracted_at": "2025-04-16T21:21:18.433287"
+  },
+  {
+    "extracted_id": "ac39ec18-d218-4503-a517-3fb0b7532293",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "4aa47154-ea01-4b3f-aced-9b8ec6e648ba",
     "raw_text": "Agile Methodologies",
-    "confidence": 0.9,
+    "confidence": 0.7,
     "proficiency": null,
-    "extracted_at": "2025-04-16T21:09:39.107218"
+    "extracted_at": "2025-04-16T21:21:18.433314"
   },
   {
-    "extracted_id": "a6945ab8-874e-4243-8369-9ee691813c5d",
+    "extracted_id": "33777bda-3131-4f81-ac89-fd35c511876b",
     "source_type": "user_profile",
-    "source_id": "5c42f0f2-2b0a-43dd-83be-d227f113c5f5",
-    "skill_id": "9dbceabb-4307-4750-9ee3-297833fc7a5b",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "21f78f5d-4607-4f43-adab-8950004b3ab4",
     "raw_text": "Scrum Methodologies",
-    "confidence": 0.9,
+    "confidence": 0.7,
     "proficiency": null,
-    "extracted_at": "2025-04-16T21:09:39.107256"
+    "extracted_at": "2025-04-16T21:21:18.433341"
   },
   {
-    "extracted_id": "8b638886-e5cf-4623-a7ef-9f4286e844c4",
-    "source_type": "job_description",
-    "source_id": "3eab45d4-9a2b-4340-8667-822155c25cc4",
-    "skill_id": "bdc4e56c-1d0b-44f0-a734-ca0fefa964db",
-    "raw_text": "Strong proficiency in at least one major development language: Java/ASP.NET/C/Python",
-    "confidence": 0.95,
-    "proficiency": "Strong proficiency",
-    "extracted_at": "2025-04-16T21:09:39.107294"
+    "extracted_id": "cc42d045-8cf6-4a04-adfb-77b187f60eea",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "1573a672-028b-4313-b153-b7453223e374",
+    "raw_text": "KeyWord: Test Plan",
+    "confidence": 0.6,
+    "proficiency": null,
+    "extracted_at": "2025-04-16T21:21:18.433371"
   },
   {
-    "extracted_id": "3ac9daa9-3a7c-4fdf-9f98-92752699b463",
-    "source_type": "job_description",
-    "source_id": "3eab45d4-9a2b-4340-8667-822155c25cc4",
-    "skill_id": "6415f999-9776-4844-9732-aa10fa1b4233",
-    "raw_text": "Strong proficiency in at least one major development language: Java/ASP.NET/C/Python",
-    "confidence": 0.95,
-    "proficiency": "Strong proficiency",
-    "extracted_at": "2025-04-16T21:09:39.107331"
+    "extracted_id": "acf35ff4-fb74-4f24-bb74-a7cf13c795bd",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "6a331c28-6e3a-4a7c-bee6-39d47cca12af",
+    "raw_text": "KeyWord: Debugging",
+    "confidence": 0.6,
+    "proficiency": null,
+    "extracted_at": "2025-04-16T21:21:18.433400"
   },
   {
-    "extracted_id": "11e438b4-2b8c-48a8-9842-c1df3cb3f4f4",
-    "source_type": "job_description",
-    "source_id": "3eab45d4-9a2b-4340-8667-822155c25cc4",
-    "skill_id": "08d65b6d-e3c0-44ad-ab1f-b8820ea428f7",
-    "raw_text": "Strong proficiency in at least one major development language: Java/ASP.NET/C/Python",
-    "confidence": 0.95,
-    "proficiency": "Strong proficiency",
-    "extracted_at": "2025-04-16T21:09:39.107372"
+    "extracted_id": "04d17034-c700-4c19-abc3-a85c5a5d604e",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "73ca364f-35cd-467f-b5c3-2ea429bd4fb1",
+    "raw_text": "KeyWord: Test automation",
+    "confidence": 0.6,
+    "proficiency": null,
+    "extracted_at": "2025-04-16T21:21:18.433428"
   },
   {
-    "extracted_id": "6bb3f313-56ec-4452-adf6-c270cd6c777d",
-    "source_type": "job_description",
-    "source_id": "3eab45d4-9a2b-4340-8667-822155c25cc4",
-    "skill_id": "1",
-    "raw_text": "Strong proficiency in at least one major development language: Java/ASP.NET/C/Python",
-    "confidence": 0.95,
-    "proficiency": "Strong proficiency",
-    "extracted_at": "2025-04-16T21:09:39.107410"
+    "extracted_id": "ee4942ca-22ce-4bfa-a77a-aa428a477fe1",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "2dbecf8e-8664-4a09-bede-ace1f733631e",
+    "raw_text": "KeyWord: Risk-based Testing",
+    "confidence": 0.6,
+    "proficiency": null,
+    "extracted_at": "2025-04-16T21:21:18.433456"
   },
   {
-    "extracted_id": "3d348947-9d15-472a-b49b-078c8e712949",
+    "extracted_id": "42acfbae-1321-4cc6-b7f0-9c76c08958ef",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "2aa98b7a-1b75-4bbe-a627-0936d58e5e1d",
+    "raw_text": "KeyWord: Performance testing",
+    "confidence": 0.6,
+    "proficiency": null,
+    "extracted_at": "2025-04-16T21:21:18.433483"
+  },
+  {
+    "extracted_id": "775feedf-36df-470c-944a-b0f8de14c68a",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "6e42bb63-c04d-4bad-b9ba-491781dc10a5",
+    "raw_text": "KeyWord: Application release",
+    "confidence": 0.6,
+    "proficiency": null,
+    "extracted_at": "2025-04-16T21:21:18.433510"
+  },
+  {
+    "extracted_id": "6ea49577-d864-42dd-9698-c99100ddfae7",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "d754ce04-e698-419e-9b7d-eb05004f5a37",
+    "raw_text": "KeyWord: Quality assurance",
+    "confidence": 0.6,
+    "proficiency": null,
+    "extracted_at": "2025-04-16T21:21:18.433537"
+  },
+  {
+    "extracted_id": "437822f7-282c-4bf4-bc58-0a44c8f1d901",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "933ffab3-3dbb-485f-9fe0-f13ce3de2a14",
+    "raw_text": "KeyWord: Service continuity",
+    "confidence": 0.6,
+    "proficiency": null,
+    "extracted_at": "2025-04-16T21:21:18.433565"
+  },
+  {
+    "extracted_id": "e58aa6cb-3740-4599-8375-b8f26e2f499c",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "94946c3a-f6d4-41a5-8a99-c57442fa0329",
+    "raw_text": "KeyWord: Post-release testing",
+    "confidence": 0.6,
+    "proficiency": null,
+    "extracted_at": "2025-04-16T21:21:18.433593"
+  },
+  {
+    "extracted_id": "73bd56d2-e5cd-45ed-b127-e83fc2619b03",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "478cafa9-3932-40cd-bff3-203fbb859ac4",
+    "raw_text": "KeyWord: Test Strategy",
+    "confidence": 0.6,
+    "proficiency": null,
+    "extracted_at": "2025-04-16T21:21:18.433620"
+  },
+  {
+    "extracted_id": "dfc7c663-7e3b-4d94-bb1f-736dedd932b9",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "ea84a05a-84a0-4ed3-a805-ec090faeb98e",
+    "raw_text": "KeyWord: Test cases",
+    "confidence": 0.6,
+    "proficiency": null,
+    "extracted_at": "2025-04-16T21:21:18.433647"
+  },
+  {
+    "extracted_id": "e7427773-7368-4052-9650-bfe441d19971",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "df534b3f-b6ec-4507-b247-d707bb6141fa",
+    "raw_text": "KeyWord: Certification process",
+    "confidence": 0.6,
+    "proficiency": null,
+    "extracted_at": "2025-04-16T21:21:18.433674"
+  },
+  {
+    "extracted_id": "d9a556de-983a-4fdd-8d21-ee0738f21ffe",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "a2711d27-3887-467f-b5db-3c47be6d37a5",
+    "raw_text": "KeyWord: Software quality",
+    "confidence": 0.6,
+    "proficiency": null,
+    "extracted_at": "2025-04-16T21:21:18.433704"
+  },
+  {
+    "extracted_id": "f1a4e06a-5bd0-4172-917c-3fa91be92df6",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "ab38a3ec-0a3e-4cc4-b7ce-c432ed4d9507",
+    "raw_text": "KeyWord: System Upgrade",
+    "confidence": 0.6,
+    "proficiency": null,
+    "extracted_at": "2025-04-16T21:21:18.433731"
+  },
+  {
+    "extracted_id": "63590712-a71d-40b9-8ba4-9626d0e47d7b",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "e3aa009e-0845-4b3d-b75d-1d1b2a90056c",
+    "raw_text": "KeyWord: Process improvement",
+    "confidence": 0.6,
+    "proficiency": null,
+    "extracted_at": "2025-04-16T21:21:18.433758"
+  },
+  {
+    "extracted_id": "f30c3ef7-de68-4023-8861-f67b4cc8b060",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "0b1addfc-efa9-446d-9e6b-513748b83ce2",
+    "raw_text": "KeyWord: Mentoring",
+    "confidence": 0.6,
+    "proficiency": null,
+    "extracted_at": "2025-04-16T21:21:18.433785"
+  },
+  {
+    "extracted_id": "72a231b5-ab26-4e8f-b986-48baf986297b",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "d2cf2be4-9184-425e-8a7d-5bf59189c20a",
+    "raw_text": "KeyWord: Test execution",
+    "confidence": 0.6,
+    "proficiency": null,
+    "extracted_at": "2025-04-16T21:21:18.433811"
+  },
+  {
+    "extracted_id": "6fc5d15f-1b62-4a21-a14d-88f4a8675d6b",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "9caa1e40-1fe0-4d6d-95d0-efb58a7cfd84",
+    "raw_text": "KeyWord: Test development",
+    "confidence": 0.6,
+    "proficiency": null,
+    "extracted_at": "2025-04-16T21:21:18.433838"
+  },
+  {
+    "extracted_id": "58d2041f-2c3c-4660-889d-b392baadf855",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "ab7139dd-d669-4e8f-bf5f-7c4d971cfc50",
+    "raw_text": "KeyWord: Compliance",
+    "confidence": 0.6,
+    "proficiency": null,
+    "extracted_at": "2025-04-16T21:21:18.433865"
+  },
+  {
+    "extracted_id": "cdd8ef80-f3d5-49b4-a9a7-91c731c1fefb",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "6220572d-0f12-4b73-b557-c1e5c1891538",
+    "raw_text": "KeyWord: Documentation",
+    "confidence": 0.6,
+    "proficiency": null,
+    "extracted_at": "2025-04-16T21:21:18.433893"
+  },
+  {
+    "extracted_id": "8ba07253-fa1f-4a4e-a7fc-23328cecd05a",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "ebd52d26-84bb-476e-88e8-687379ab93fa",
+    "raw_text": "KeyWord: Product release",
+    "confidence": 0.6,
+    "proficiency": null,
+    "extracted_at": "2025-04-16T21:21:18.433919"
+  },
+  {
+    "extracted_id": "c0198ea9-f237-46f7-ba8b-e45d466e01ae",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "9824111a-15a5-4200-a67f-9a909cb10f5f",
+    "raw_text": "KeyWord: Product support",
+    "confidence": 0.6,
+    "proficiency": null,
+    "extracted_at": "2025-04-16T21:21:18.433947"
+  },
+  {
+    "extracted_id": "cae5443b-c033-43d0-a396-8e9d35f577c2",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "f0693692-f1e8-45f5-8530-9508356f0c84",
+    "raw_text": "KeyWord: Application support",
+    "confidence": 0.6,
+    "proficiency": null,
+    "extracted_at": "2025-04-16T21:21:18.433975"
+  },
+  {
+    "extracted_id": "298ca108-25a5-452c-ad44-75300f035062",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "3d7432b1-9ab3-466c-b2a8-d57db2cd9616",
+    "raw_text": "KeyWord: SLA",
+    "confidence": 0.6,
+    "proficiency": null,
+    "extracted_at": "2025-04-16T21:21:18.434002"
+  },
+  {
+    "extracted_id": "fab750aa-5daf-44a0-a9c0-20b985e449c1",
+    "source_type": "user_profile",
+    "source_id": "e48ed637-4f1f-401f-9cf9-b7f9e7798f6b",
+    "skill_id": "3ce0c50a-dc05-4b7c-86c3-d322eeff8ff5",
+    "raw_text": "KeyWord: Cross-functional collaboration",
+    "confidence": 0.6,
+    "proficiency": null,
+    "extracted_at": "2025-04-16T21:21:18.434104"
+  },
+  {
+    "extracted_id": "903dcb13-2b09-4f74-bd64-1d0e49a90672",
     "source_type": "job_description",
-    "source_id": "3eab45d4-9a2b-4340-8667-822155c25cc4",
-    "skill_id": "8f7f869b-6db5-4754-b346-0d2e187386fe",
+    "source_id": "7eacc912-7035-448c-b634-71f7ed9493fc",
+    "skill_id": "45867131-bd62-4833-b0ee-120f02dd5898",
+    "raw_text": "developing and executing test plans and test cases",
+    "confidence": 0.9,
+    "proficiency": "Advanced",
+    "extracted_at": "2025-04-16T21:21:18.434134"
+  },
+  {
+    "extracted_id": "219d0502-3651-4061-b18c-a38fff1d7e95",
+    "source_type": "job_description",
+    "source_id": "7eacc912-7035-448c-b634-71f7ed9493fc",
+    "skill_id": "4b1b2496-670b-42a1-b517-57ff1f2b635b",
+    "raw_text": "create, implement, maintain, and enhance test plans, test scripts",
+    "confidence": 0.9,
+    "proficiency": "Advanced",
+    "extracted_at": "2025-04-16T21:21:18.434162"
+  },
+  {
+    "extracted_id": "78c183eb-5e46-4330-87d1-e95bb46364a5",
+    "source_type": "job_description",
+    "source_id": "7eacc912-7035-448c-b634-71f7ed9493fc",
+    "skill_id": "6ae5d9b0-e896-4065-9a8d-15b7314fcdc1",
+    "raw_text": "highly committed to create world class automation",
+    "confidence": 0.9,
+    "proficiency": "Advanced",
+    "extracted_at": "2025-04-16T21:21:18.434191"
+  },
+  {
+    "extracted_id": "6a2dc1ce-bc61-4097-9cb3-ed8a908e4a23",
+    "source_type": "job_description",
+    "source_id": "7eacc912-7035-448c-b634-71f7ed9493fc",
+    "skill_id": "491d8c2c-cd37-44de-a085-fabe1dd2beb1",
+    "raw_text": "create world class automation for regression and feature testing",
+    "confidence": 0.8,
+    "proficiency": "Moderate",
+    "extracted_at": "2025-04-16T21:21:18.434218"
+  },
+  {
+    "extracted_id": "5bbf2643-68c0-4925-9dfa-bc49733af3d1",
+    "source_type": "job_description",
+    "source_id": "7eacc912-7035-448c-b634-71f7ed9493fc",
+    "skill_id": "cd19839e-94d5-487d-8c93-128273f1a2ad",
+    "raw_text": "promote proper engineering practice, bug prevention strategies",
+    "confidence": 0.7,
+    "proficiency": "Moderate",
+    "extracted_at": "2025-04-16T21:21:18.434246"
+  },
+  {
+    "extracted_id": "0320e164-5bd8-491e-9d7f-5561193c5ba0",
+    "source_type": "job_description",
+    "source_id": "7eacc912-7035-448c-b634-71f7ed9493fc",
+    "skill_id": "86090770-f21f-4c31-bcfb-9bac7554261d",
+    "raw_text": "analyzing and communicating test results, defect tracking",
+    "confidence": 0.9,
+    "proficiency": "Advanced",
+    "extracted_at": "2025-04-16T21:21:18.434273"
+  },
+  {
+    "extracted_id": "e10e50af-343f-4655-ab21-e9338f45bba8",
+    "source_type": "job_description",
+    "source_id": "7eacc912-7035-448c-b634-71f7ed9493fc",
+    "skill_id": "3bdf3c5d-55f3-4b3a-b198-8bfd2f92ebc2",
     "raw_text": "Experience with Selenium",
+    "confidence": 0.8,
+    "proficiency": "Moderate",
+    "extracted_at": "2025-04-16T21:21:18.434301"
+  },
+  {
+    "extracted_id": "dc27ab61-e136-45ec-94fa-40edba64f93f",
+    "source_type": "job_description",
+    "source_id": "7eacc912-7035-448c-b634-71f7ed9493fc",
+    "skill_id": "15653657-f5d5-4c2a-abe7-945c913472c4",
+    "raw_text": "Strong proficiency in at least one major development language: Java",
+    "confidence": 0.8,
+    "proficiency": "Moderate",
+    "extracted_at": "2025-04-16T21:21:18.434328"
+  },
+  {
+    "extracted_id": "a0835f43-248f-4b9c-8ce9-4101c6b2b8c2",
+    "source_type": "job_description",
+    "source_id": "7eacc912-7035-448c-b634-71f7ed9493fc",
+    "skill_id": "99b653ed-6a09-43b1-b2c5-cd8002641633",
+    "raw_text": "Strong proficiency in at least one major development language: ASP.NET",
+    "confidence": 0.7,
+    "proficiency": "Moderate",
+    "extracted_at": "2025-04-16T21:21:18.434355"
+  },
+  {
+    "extracted_id": "4bb597c1-6e73-4e01-bccc-962bc1641357",
+    "source_type": "job_description",
+    "source_id": "7eacc912-7035-448c-b634-71f7ed9493fc",
+    "skill_id": "55f3b9c5-f6da-4210-aea7-fbf5ec77c17d",
+    "raw_text": "Strong proficiency in at least one major development language: C",
+    "confidence": 0.7,
+    "proficiency": "Moderate",
+    "extracted_at": "2025-04-16T21:21:18.434385"
+  },
+  {
+    "extracted_id": "f2e08bbc-40ec-4a26-adde-5106f61c1a81",
+    "source_type": "job_description",
+    "source_id": "7eacc912-7035-448c-b634-71f7ed9493fc",
+    "skill_id": "1",
+    "raw_text": "Strong proficiency in at least one major development language: Python",
+    "confidence": 0.7,
+    "proficiency": "Moderate",
+    "extracted_at": "2025-04-16T21:21:18.434413"
+  },
+  {
+    "extracted_id": "69e7e0c1-0ffb-4470-a1c2-dfdf5fb6501a",
+    "source_type": "job_description",
+    "source_id": "7eacc912-7035-448c-b634-71f7ed9493fc",
+    "skill_id": "92684352-4f92-4a7f-a8de-acb8be2287f5",
+    "raw_text": "technical skill in system design, analysis and implementation of programs and web-based applications",
     "confidence": 0.9,
-    "proficiency": "Experience with",
-    "extracted_at": "2025-04-16T21:09:39.107447"
+    "proficiency": "Advanced",
+    "extracted_at": "2025-04-16T21:21:18.434441"
   },
   {
-    "extracted_id": "3816d760-b6c5-4782-ac7c-b47a3638c921",
+    "extracted_id": "97346dde-8b5f-4d69-accc-0d04143312b4",
     "source_type": "job_description",
-    "source_id": "3eab45d4-9a2b-4340-8667-822155c25cc4",
-    "skill_id": "907e7dfe-d2b6-42ed-bf4d-e028943bde52",
-    "raw_text": "Knowledge of test methodologies, writing test plans, creating test cases and debugging",
+    "source_id": "7eacc912-7035-448c-b634-71f7ed9493fc",
+    "skill_id": "2e715c7d-44f0-4de0-a053-c1a622173d8d",
+    "raw_text": "knowledge of test methodologies, writing test plans, creating test cases and debugging",
     "confidence": 0.9,
-    "proficiency": "Knowledge of",
-    "extracted_at": "2025-04-16T21:09:39.107484"
+    "proficiency": "Advanced",
+    "extracted_at": "2025-04-16T21:21:18.434468"
   },
   {
-    "extracted_id": "b925f437-d2d2-420a-b763-7799fd95c063",
+    "extracted_id": "0892c7ae-a7ce-4369-8210-ad15ba2f523f",
     "source_type": "job_description",
-    "source_id": "3eab45d4-9a2b-4340-8667-822155c25cc4",
-    "skill_id": "e8fcfc33-b93d-46c6-ad35-b5cbd0741e26",
-    "raw_text": "Deep knowledge of internet technologies",
+    "source_id": "7eacc912-7035-448c-b634-71f7ed9493fc",
+    "skill_id": "2",
+    "raw_text": "Template engineering (Handlebars/Mustache) RequireJS/AMD",
+    "confidence": 0.7,
+    "proficiency": "Moderate",
+    "extracted_at": "2025-04-16T21:21:18.434496"
+  },
+  {
+    "extracted_id": "3f43e614-d2a0-46d9-a8db-fea1b4b7eb00",
+    "source_type": "job_description",
+    "source_id": "7eacc912-7035-448c-b634-71f7ed9493fc",
+    "skill_id": "6b6d0bf4-286f-4852-9e8e-e0445cc35e48",
+    "raw_text": "Engineering techniques (SVN/Git)",
+    "confidence": 0.8,
+    "proficiency": "Moderate",
+    "extracted_at": "2025-04-16T21:21:18.434524"
+  },
+  {
+    "extracted_id": "d6834dce-3f26-4db0-88e2-e1b98f4e6e6e",
+    "source_type": "job_description",
+    "source_id": "7eacc912-7035-448c-b634-71f7ed9493fc",
+    "skill_id": "e5289926-19fc-42f1-833e-6e7b5f47e726",
+    "raw_text": "Engineering techniques (staging, continuous integration, etc)",
+    "confidence": 0.8,
+    "proficiency": "Moderate",
+    "extracted_at": "2025-04-16T21:21:18.434551"
+  },
+  {
+    "extracted_id": "2fb98e3a-8cc3-4388-aa7e-d0e9a324300b",
+    "source_type": "job_description",
+    "source_id": "7eacc912-7035-448c-b634-71f7ed9493fc",
+    "skill_id": "3",
+    "raw_text": "MySQL/MS SQL Server",
+    "confidence": 0.7,
+    "proficiency": "Moderate",
+    "extracted_at": "2025-04-16T21:21:18.434579"
+  },
+  {
+    "extracted_id": "b99b6bfd-886b-4535-92f1-95d2cf7621b6",
+    "source_type": "job_description",
+    "source_id": "7eacc912-7035-448c-b634-71f7ed9493fc",
+    "skill_id": "8f2905a5-8d47-4147-9a1f-0cccb1d8d610",
+    "raw_text": "Apache, Tomcat",
+    "confidence": 0.7,
+    "proficiency": "Moderate",
+    "extracted_at": "2025-04-16T21:21:18.434607"
+  },
+  {
+    "extracted_id": "7491af75-2770-43d5-8876-39eb128e58af",
+    "source_type": "job_description",
+    "source_id": "7eacc912-7035-448c-b634-71f7ed9493fc",
+    "skill_id": "14",
+    "raw_text": "CSS preprocessors (SASS/LESS)",
+    "confidence": 0.7,
+    "proficiency": "Moderate",
+    "extracted_at": "2025-04-16T21:21:18.434634"
+  },
+  {
+    "extracted_id": "7697800f-04fb-4441-b025-c73d22f7f4ff",
+    "source_type": "job_description",
+    "source_id": "7eacc912-7035-448c-b634-71f7ed9493fc",
+    "skill_id": "e1105c48-5869-4efe-ac85-c173c0c546d7",
+    "raw_text": "Agile development techniques",
+    "confidence": 0.7,
+    "proficiency": "Moderate",
+    "extracted_at": "2025-04-16T21:21:18.434667"
+  },
+  {
+    "extracted_id": "a13acd96-1880-4e00-a1db-2618214c6297",
+    "source_type": "job_description",
+    "source_id": "7eacc912-7035-448c-b634-71f7ed9493fc",
+    "skill_id": "1813a9e2-c92e-41ca-a842-82f53b43246e",
+    "raw_text": "Google Analytics",
+    "confidence": 0.6,
+    "proficiency": "Basic",
+    "extracted_at": "2025-04-16T21:21:18.434695"
+  },
+  {
+    "extracted_id": "073c24f0-6221-43df-b970-d75b749db92e",
+    "source_type": "job_description",
+    "source_id": "7eacc912-7035-448c-b634-71f7ed9493fc",
+    "skill_id": "8",
+    "raw_text": "innovation and vision in problem solving and meeting objectives",
     "confidence": 0.9,
-    "proficiency": "Deep knowledge of",
-    "extracted_at": "2025-04-16T21:09:39.107525"
+    "proficiency": "Advanced",
+    "extracted_at": "2025-04-16T21:21:18.434723"
   },
   {
-    "extracted_id": "5a173a6e-4a3e-4d08-b7ff-a5e73e1f34f0",
+    "extracted_id": "7f218123-beed-4bbe-bc28-8e6e3067858e",
     "source_type": "job_description",
-    "source_id": "3eab45d4-9a2b-4340-8667-822155c25cc4",
-    "skill_id": "ac9fa27c-d68a-473e-a55b-06d215e97aae",
-    "raw_text": "Experience with the following tools and technologies are desired: Java Template engineering (Handlebars/Mustache)",
-    "confidence": 0.8,
-    "proficiency": "Experience with",
-    "extracted_at": "2025-04-16T21:09:39.107562"
-  },
-  {
-    "extracted_id": "d0f83ee9-b37a-4d65-935a-be3d1010e250",
-    "source_type": "job_description",
-    "source_id": "3eab45d4-9a2b-4340-8667-822155c25cc4",
-    "skill_id": "1d13a65c-4b51-4eb9-b6ec-4734518e4a51",
-    "raw_text": "Experience with the following tools and technologies are desired: RequireJS/AMD",
-    "confidence": 0.8,
-    "proficiency": "Experience with",
-    "extracted_at": "2025-04-16T21:09:39.107598"
-  },
-  {
-    "extracted_id": "5d1f0103-0e19-4c95-b693-34dfae6d3dfe",
-    "source_type": "job_description",
-    "source_id": "3eab45d4-9a2b-4340-8667-822155c25cc4",
-    "skill_id": "27531683-bdaf-4324-9a17-26aa39bba802",
-    "raw_text": "Experience with engineering techniques (SVN/Git, staging, continuous integration, etc)",
-    "confidence": 0.8,
-    "proficiency": "Experience with",
-    "extracted_at": "2025-04-16T21:09:39.107636"
-  },
-  {
-    "extracted_id": "5b6cb023-acdf-47b1-a84b-81e25f67041b",
-    "source_type": "job_description",
-    "source_id": "3eab45d4-9a2b-4340-8667-822155c25cc4",
-    "skill_id": "6746fe23-d08f-407a-a23b-e14c43835dc5",
-    "raw_text": "Experience with MySQL/MS SQL Server",
-    "confidence": 0.8,
-    "proficiency": "Experience with",
-    "extracted_at": "2025-04-16T21:09:39.107674"
-  },
-  {
-    "extracted_id": "d103a8b9-906f-410a-aa3d-3149c0ef088a",
-    "source_type": "job_description",
-    "source_id": "3eab45d4-9a2b-4340-8667-822155c25cc4",
-    "skill_id": "31b96709-1fea-497b-b093-385d2c3a447e",
-    "raw_text": "Experience with Apache, Tomcat, Groovy, Grails",
-    "confidence": 0.8,
-    "proficiency": "Experience with",
-    "extracted_at": "2025-04-16T21:09:39.107711"
-  },
-  {
-    "extracted_id": "8236aefb-8f91-421e-9864-76c95860e3b5",
-    "source_type": "job_description",
-    "source_id": "3eab45d4-9a2b-4340-8667-822155c25cc4",
-    "skill_id": "8bee35d7-b19b-4d04-bf28-7f2cc9ca1c55",
-    "raw_text": "Experience with Apache, Tomcat, Groovy, Grails",
-    "confidence": 0.8,
-    "proficiency": "Experience with",
-    "extracted_at": "2025-04-16T21:09:39.107746"
-  },
-  {
-    "extracted_id": "9158fe94-b6f9-4a16-8306-f736c1db9252",
-    "source_type": "job_description",
-    "source_id": "3eab45d4-9a2b-4340-8667-822155c25cc4",
-    "skill_id": "f1d7a330-0d37-48b8-97c4-1d6ee4b976f1",
-    "raw_text": "Experience with Apache, Tomcat, Groovy, Grails",
-    "confidence": 0.8,
-    "proficiency": "Experience with",
-    "extracted_at": "2025-04-16T21:09:39.107783"
-  },
-  {
-    "extracted_id": "d518312d-0de5-4ad9-b2d6-d9b20d8f52b2",
-    "source_type": "job_description",
-    "source_id": "3eab45d4-9a2b-4340-8667-822155c25cc4",
-    "skill_id": "7af223d8-d116-4758-bc30-db2ba98a1b53",
-    "raw_text": "Experience with Apache, Tomcat, Groovy, Grails",
-    "confidence": 0.8,
-    "proficiency": "Experience with",
-    "extracted_at": "2025-04-16T21:09:39.107820"
-  },
-  {
-    "extracted_id": "84177b08-7582-4a80-8ac9-e16d610c3b3d",
-    "source_type": "job_description",
-    "source_id": "3eab45d4-9a2b-4340-8667-822155c25cc4",
-    "skill_id": "3d75b05c-1274-420d-8286-0c39d3a4d5b2",
-    "raw_text": "Experience with CSS preprocessors (SASS/LESS)",
-    "confidence": 0.8,
-    "proficiency": "Experience with",
-    "extracted_at": "2025-04-16T21:09:39.107858"
-  },
-  {
-    "extracted_id": "fbc7b961-68fe-4b5d-80ed-ca186384ac29",
-    "source_type": "job_description",
-    "source_id": "3eab45d4-9a2b-4340-8667-822155c25cc4",
-    "skill_id": "94bda93b-ddca-4401-9819-a4ce303082c8",
-    "raw_text": "Experience with IDE (IntelliJ IDEA, MyEclipse, etc)",
-    "confidence": 0.8,
-    "proficiency": "Experience with",
-    "extracted_at": "2025-04-16T21:09:39.107895"
-  },
-  {
-    "extracted_id": "1e6f608e-057a-4bc2-8a4f-9826d524530a",
-    "source_type": "job_description",
-    "source_id": "3eab45d4-9a2b-4340-8667-822155c25cc4",
-    "skill_id": "19e5ac04-b8ad-4aca-b55b-d2fe9e9b67c7",
-    "raw_text": "Experience with Gradle",
-    "confidence": 0.8,
-    "proficiency": "Experience with",
-    "extracted_at": "2025-04-16T21:09:39.107932"
-  },
-  {
-    "extracted_id": "6c4b27e3-1d99-4b3a-acf9-10330b97b8e7",
-    "source_type": "job_description",
-    "source_id": "3eab45d4-9a2b-4340-8667-822155c25cc4",
-    "skill_id": "4afe8979-8c1c-412b-afea-6e13c0c98aff",
-    "raw_text": "Experience with Maven",
-    "confidence": 0.8,
-    "proficiency": "Experience with",
-    "extracted_at": "2025-04-16T21:09:39.107972"
-  },
-  {
-    "extracted_id": "4b71b4e2-1cc9-49f9-95f9-d7323782da94",
-    "source_type": "job_description",
-    "source_id": "3eab45d4-9a2b-4340-8667-822155c25cc4",
-    "skill_id": "e86d4ad1-40ef-44f1-a7ec-034931cbb574",
-    "raw_text": "Experience with MVC application frameworks like Spring",
-    "confidence": 0.8,
-    "proficiency": "Experience with",
-    "extracted_at": "2025-04-16T21:09:39.108009"
-  },
-  {
-    "extracted_id": "c40d36e5-9076-4280-baae-f90ea5fcf5a9",
-    "source_type": "job_description",
-    "source_id": "3eab45d4-9a2b-4340-8667-822155c25cc4",
-    "skill_id": "880752c2-b014-4fa6-9324-e9b571d015f8",
-    "raw_text": "Experience with Agile development techniques",
-    "confidence": 0.8,
-    "proficiency": "Experience with",
-    "extracted_at": "2025-04-16T21:09:39.108046"
-  },
-  {
-    "extracted_id": "20f60baf-5a0e-45d5-9a2b-21f43ac0d0b6",
-    "source_type": "job_description",
-    "source_id": "3eab45d4-9a2b-4340-8667-822155c25cc4",
-    "skill_id": "76e5f014-20d3-4b10-939e-3bda17b862e2",
-    "raw_text": "Experience with Google Analytics",
-    "confidence": 0.8,
-    "proficiency": "Experience with",
-    "extracted_at": "2025-04-16T21:09:39.108083"
-  },
-  {
-    "extracted_id": "4889277b-4870-43af-857d-e0d621424242",
-    "source_type": "job_description",
-    "source_id": "3eab45d4-9a2b-4340-8667-822155c25cc4",
-    "skill_id": "010b0321-3a30-497a-9311-b6cd19908da4",
-    "raw_text": "Good technical skills, including knowledge of web technologies",
+    "source_id": "7eacc912-7035-448c-b634-71f7ed9493fc",
+    "skill_id": "2f663104-39db-4a3a-a792-9db3b8fc28ec",
+    "raw_text": "Effective communication, problem-solving and organizational abilities",
     "confidence": 0.9,
-    "proficiency": "Good technical skills",
-    "extracted_at": "2025-04-16T21:09:39.108121"
+    "proficiency": "Advanced",
+    "extracted_at": "2025-04-16T21:21:18.434751"
   },
   {
-    "extracted_id": "d28e26fc-4ab2-4f9f-9522-96ffe42e7b27",
+    "extracted_id": "bda45551-86b3-455c-b3cd-1948df62a078",
     "source_type": "job_description",
-    "source_id": "3eab45d4-9a2b-4340-8667-822155c25cc4",
-    "skill_id": "dbe3c094-85a6-48ac-a662-c0fcb67e8114",
-    "raw_text": "Effective communication, problem-solving and organizational abilities in both written and verbal form",
+    "source_id": "7eacc912-7035-448c-b634-71f7ed9493fc",
+    "skill_id": "040e4422-02d8-4fb3-ac52-c10e044fa9ac",
+    "raw_text": "organizational skills are critical to successful performance",
     "confidence": 0.9,
-    "proficiency": "Strong ability",
-    "extracted_at": "2025-04-16T21:09:39.108158"
+    "proficiency": "Advanced",
+    "extracted_at": "2025-04-16T21:21:18.434778"
   }
 ]

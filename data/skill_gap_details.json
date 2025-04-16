@@ -1,8 +1,18 @@
 [
   {
-    "detail_id": "c6b76062-a838-445e-88ed-7592b3485880",
-    "report_id": "b8889308-a5c1-4c37-b794-7a67d8618677",
-    "skill_id": "9c709e83-b101-4210-9881-eb2dd31f7125",
+    "detail_id": "87e888cd-80b4-4bed-b3d5-2a10e9bc4ae5",
+    "report_id": "494f2f8a-9a60-46ca-bd41-c80ba978f2da",
+    "skill_id": "83139910-74dd-41bd-b487-0c34a2f9fb2d",
+    "status": "Matched",
+    "user_proficiency": "Expert",
+    "job_proficiency": null,
+    "similarity_score": 1.0,
+    "notes": ""
+  },
+  {
+    "detail_id": "9580f926-f85c-451f-bd0a-6ab7d63a5bc5",
+    "report_id": "494f2f8a-9a60-46ca-bd41-c80ba978f2da",
+    "skill_id": "79396566-5241-4ecc-8bd9-717917dc8fe6",
     "status": "Matched",
     "user_proficiency": "Proficient",
     "job_proficiency": null,
@@ -10,9 +20,39 @@
     "notes": ""
   },
   {
-    "detail_id": "4bc4427e-09db-44b4-86e7-777960bda758",
-    "report_id": "b8889308-a5c1-4c37-b794-7a67d8618677",
-    "skill_id": "92bc59b6-171f-468d-8596-70d6123baae0",
+    "detail_id": "7b8e6c5d-822f-4102-8c71-3d1b19d7a343",
+    "report_id": "494f2f8a-9a60-46ca-bd41-c80ba978f2da",
+    "skill_id": "3",
+    "status": "Matched",
+    "user_proficiency": "Proficient",
+    "job_proficiency": null,
+    "similarity_score": 1.0,
+    "notes": ""
+  },
+  {
+    "detail_id": "6befbd58-1a73-4f1e-8e05-7dd0d521d906",
+    "report_id": "494f2f8a-9a60-46ca-bd41-c80ba978f2da",
+    "skill_id": "8",
+    "status": "Matched",
+    "user_proficiency": null,
+    "job_proficiency": null,
+    "similarity_score": 1.0,
+    "notes": ""
+  },
+  {
+    "detail_id": "824b6cd5-80de-4dae-96fe-199e9def4fb1",
+    "report_id": "494f2f8a-9a60-46ca-bd41-c80ba978f2da",
+    "skill_id": "225c3cf9-3cd5-4870-b31b-0a1a5db6bf92",
+    "status": "Matched",
+    "user_proficiency": null,
+    "job_proficiency": null,
+    "similarity_score": 1.0,
+    "notes": ""
+  },
+  {
+    "detail_id": "03d7cece-2aa1-45e2-9728-2457e9cc9907",
+    "report_id": "494f2f8a-9a60-46ca-bd41-c80ba978f2da",
+    "skill_id": "b8ca8c56-9a6d-4708-a85c-473d2d6c6b35",
     "status": "Missing",
     "user_proficiency": null,
     "job_proficiency": null,
@@ -20,9 +60,9 @@
     "notes": ""
   },
   {
-    "detail_id": "c1976a20-2f2a-446c-8b6b-302f8e962ca1",
-    "report_id": "b8889308-a5c1-4c37-b794-7a67d8618677",
-    "skill_id": "87d89987-7ec6-456e-87cd-ad74672ac997",
+    "detail_id": "b2352aef-5370-4f9a-8733-d410b89da59b",
+    "report_id": "494f2f8a-9a60-46ca-bd41-c80ba978f2da",
+    "skill_id": "fc2e8434-8547-4977-88be-954eb0f50a9f",
     "status": "Missing",
     "user_proficiency": null,
     "job_proficiency": null,
@@ -30,8 +70,68 @@
     "notes": ""
   },
   {
-    "detail_id": "2a0d77a6-43a4-4469-9e66-1afed88d297a",
-    "report_id": "b8889308-a5c1-4c37-b794-7a67d8618677",
+    "detail_id": "b126eef7-e937-419a-88b6-b13357e154f8",
+    "report_id": "494f2f8a-9a60-46ca-bd41-c80ba978f2da",
+    "skill_id": "95ca52ca-746b-4c6d-90ba-80338cbd1821",
+    "status": "Missing",
+    "user_proficiency": null,
+    "job_proficiency": null,
+    "similarity_score": 0.0,
+    "notes": ""
+  },
+  {
+    "detail_id": "dc9b40e6-5e4e-4ca3-96dc-df3de361b8c3",
+    "report_id": "494f2f8a-9a60-46ca-bd41-c80ba978f2da",
+    "skill_id": "ca03ec43-2393-4fda-a8ec-9586bb947697",
+    "status": "Missing",
+    "user_proficiency": null,
+    "job_proficiency": null,
+    "similarity_score": 0.0,
+    "notes": ""
+  },
+  {
+    "detail_id": "d378073e-ce4b-4f76-8d2d-afb4e32f0382",
+    "report_id": "494f2f8a-9a60-46ca-bd41-c80ba978f2da",
+    "skill_id": "73cbb573-3f06-435c-bb76-bac5777c6fe3",
+    "status": "Missing",
+    "user_proficiency": null,
+    "job_proficiency": null,
+    "similarity_score": 0.0,
+    "notes": ""
+  },
+  {
+    "detail_id": "d93b2c6d-aae8-415f-99db-964d1017bf33",
+    "report_id": "494f2f8a-9a60-46ca-bd41-c80ba978f2da",
+    "skill_id": "13e183f3-2f79-472d-84e4-b828183db4a4",
+    "status": "Missing",
+    "user_proficiency": null,
+    "job_proficiency": null,
+    "similarity_score": 0.0,
+    "notes": ""
+  },
+  {
+    "detail_id": "67150481-c19f-4648-8371-2ba0efb66613",
+    "report_id": "494f2f8a-9a60-46ca-bd41-c80ba978f2da",
+    "skill_id": "ee05997a-368e-4f2a-9ce7-0a6b2a27651f",
+    "status": "Missing",
+    "user_proficiency": null,
+    "job_proficiency": null,
+    "similarity_score": 0.0,
+    "notes": ""
+  },
+  {
+    "detail_id": "40a0cf0a-bc8c-4092-9ada-dc6b71eb3e36",
+    "report_id": "494f2f8a-9a60-46ca-bd41-c80ba978f2da",
+    "skill_id": "25235a7a-aa07-4c86-b05c-1169dc57cc4c",
+    "status": "Missing",
+    "user_proficiency": null,
+    "job_proficiency": null,
+    "similarity_score": 0.0,
+    "notes": ""
+  },
+  {
+    "detail_id": "afa7e7e5-803a-48aa-8f24-6dd5106deefd",
+    "report_id": "494f2f8a-9a60-46ca-bd41-c80ba978f2da",
     "skill_id": "1",
     "status": "Missing",
     "user_proficiency": null,
@@ -40,9 +140,9 @@
     "notes": ""
   },
   {
-    "detail_id": "aed3b9b4-2fc8-4612-87c5-3bef6530b556",
-    "report_id": "b8889308-a5c1-4c37-b794-7a67d8618677",
-    "skill_id": "141ba68c-1cdf-4a89-937f-fc27d512dece",
+    "detail_id": "ad366f1e-baec-438b-8a61-93af0bf72310",
+    "report_id": "494f2f8a-9a60-46ca-bd41-c80ba978f2da",
+    "skill_id": "90d66926-de6d-4df9-a666-4edc0df264b5",
     "status": "Missing",
     "user_proficiency": null,
     "job_proficiency": null,
@@ -50,9 +150,9 @@
     "notes": ""
   },
   {
-    "detail_id": "4560a350-897b-497f-a82d-23178b0d3ee1",
-    "report_id": "b8889308-a5c1-4c37-b794-7a67d8618677",
-    "skill_id": "f650cbac-e913-4c5d-93af-38d096af1801",
+    "detail_id": "d539fbed-b82c-4865-b843-eef8d450b336",
+    "report_id": "494f2f8a-9a60-46ca-bd41-c80ba978f2da",
+    "skill_id": "edc14e2b-e0bf-4425-82bc-7d9739f7c434",
     "status": "Missing",
     "user_proficiency": null,
     "job_proficiency": null,
@@ -60,9 +160,9 @@
     "notes": ""
   },
   {
-    "detail_id": "cb5b63b9-990f-46a2-bbcc-3029d85be6e8",
-    "report_id": "b8889308-a5c1-4c37-b794-7a67d8618677",
-    "skill_id": "c5d25718-caf5-4804-85cd-d6625e95633f",
+    "detail_id": "193f3efc-e9ed-48ff-a380-ed05ad89fccc",
+    "report_id": "494f2f8a-9a60-46ca-bd41-c80ba978f2da",
+    "skill_id": "2",
     "status": "Missing",
     "user_proficiency": null,
     "job_proficiency": null,
@@ -70,9 +170,9 @@
     "notes": ""
   },
   {
-    "detail_id": "42a9d455-8dd7-4db4-8090-0795b77deae5",
-    "report_id": "b8889308-a5c1-4c37-b794-7a67d8618677",
-    "skill_id": "0f5942df-df59-41fb-b749-2ee388680aa0",
+    "detail_id": "57b2143a-e4cb-469f-a08b-86fadcaf1a4a",
+    "report_id": "494f2f8a-9a60-46ca-bd41-c80ba978f2da",
+    "skill_id": "75e98180-17b7-40cd-bee2-ceedc1e029d5",
     "status": "Missing",
     "user_proficiency": null,
     "job_proficiency": null,
@@ -80,9 +180,9 @@
     "notes": ""
   },
   {
-    "detail_id": "d6a02333-7ed2-45af-8b3a-0ca618a3b14b",
-    "report_id": "b8889308-a5c1-4c37-b794-7a67d8618677",
-    "skill_id": "b48c0ba0-781d-4e97-8fac-8487f474578c",
+    "detail_id": "04c63870-f6d4-4559-956a-46f7d68461af",
+    "report_id": "494f2f8a-9a60-46ca-bd41-c80ba978f2da",
+    "skill_id": "2ce92465-7adb-4552-8f3d-f667c6c0390d",
     "status": "Missing",
     "user_proficiency": null,
     "job_proficiency": null,
@@ -90,9 +190,9 @@
     "notes": ""
   },
   {
-    "detail_id": "7246d165-fb97-41f8-93fc-bb80cacc105b",
-    "report_id": "b8889308-a5c1-4c37-b794-7a67d8618677",
-    "skill_id": "aaafa891-8b87-471e-aa2b-757d0f9b28c1",
+    "detail_id": "053dfb7a-9634-4252-8bd6-0dd6c2c49dc3",
+    "report_id": "494f2f8a-9a60-46ca-bd41-c80ba978f2da",
+    "skill_id": "d07b1b85-3792-4e95-b5e4-be65cb9803e3",
     "status": "Missing",
     "user_proficiency": null,
     "job_proficiency": null,
@@ -100,9 +200,9 @@
     "notes": ""
   },
   {
-    "detail_id": "83cd2bd1-46d7-48f2-9df9-896d40194280",
-    "report_id": "b8889308-a5c1-4c37-b794-7a67d8618677",
-    "skill_id": "23987ed0-7493-464a-813c-7cbd92de1888",
+    "detail_id": "c599fd56-10e6-47b2-bb94-f3d50811bee0",
+    "report_id": "494f2f8a-9a60-46ca-bd41-c80ba978f2da",
+    "skill_id": "14",
     "status": "Missing",
     "user_proficiency": null,
     "job_proficiency": null,
@@ -110,9 +210,9 @@
     "notes": ""
   },
   {
-    "detail_id": "511923bb-ad64-4917-8656-51a0556312bb",
-    "report_id": "b8889308-a5c1-4c37-b794-7a67d8618677",
-    "skill_id": "96caed41-3f16-4944-a792-7bf725e24271",
+    "detail_id": "0692f76b-def2-494e-a16b-c79de3afa0fd",
+    "report_id": "494f2f8a-9a60-46ca-bd41-c80ba978f2da",
+    "skill_id": "cf3b3ce4-9e18-4b19-b68c-d2a56e7c7014",
     "status": "Missing",
     "user_proficiency": null,
     "job_proficiency": null,
@@ -120,9 +220,9 @@
     "notes": ""
   },
   {
-    "detail_id": "57d7359b-00ed-4c0e-9358-f63b48434049",
-    "report_id": "b8889308-a5c1-4c37-b794-7a67d8618677",
-    "skill_id": "6f6a6b02-21fa-453c-9fd7-870fe58b5d7a",
+    "detail_id": "af3c5b9a-e0ab-4422-9b8b-b393327ad12b",
+    "report_id": "494f2f8a-9a60-46ca-bd41-c80ba978f2da",
+    "skill_id": "5830bb89-9750-499e-b424-759a9d3763fc",
     "status": "Missing",
     "user_proficiency": null,
     "job_proficiency": null,
@@ -130,109 +230,9 @@
     "notes": ""
   },
   {
-    "detail_id": "153db2cc-1ca9-41c3-9a87-5a2e290ba8e8",
-    "report_id": "b8889308-a5c1-4c37-b794-7a67d8618677",
-    "skill_id": "02f20003-fad5-40df-b11e-121d67b3082c",
-    "status": "Missing",
-    "user_proficiency": null,
-    "job_proficiency": null,
-    "similarity_score": 0.0,
-    "notes": ""
-  },
-  {
-    "detail_id": "22a812f4-a716-456c-8395-122499d412f9",
-    "report_id": "b8889308-a5c1-4c37-b794-7a67d8618677",
-    "skill_id": "1d418014-d9be-4d97-b834-00f102fc4bbd",
-    "status": "Missing",
-    "user_proficiency": null,
-    "job_proficiency": null,
-    "similarity_score": 0.0,
-    "notes": ""
-  },
-  {
-    "detail_id": "ab2ea94d-a154-4936-9abf-820e13a5ebab",
-    "report_id": "b8889308-a5c1-4c37-b794-7a67d8618677",
-    "skill_id": "123b7f1e-9780-476d-b31c-bfbec7115599",
-    "status": "Missing",
-    "user_proficiency": null,
-    "job_proficiency": null,
-    "similarity_score": 0.0,
-    "notes": ""
-  },
-  {
-    "detail_id": "4507ef4e-e92f-4e60-b81b-59a3b8f83858",
-    "report_id": "b8889308-a5c1-4c37-b794-7a67d8618677",
-    "skill_id": "1e6d6665-2d8a-4f29-86b3-bfe87462af52",
-    "status": "Missing",
-    "user_proficiency": null,
-    "job_proficiency": null,
-    "similarity_score": 0.0,
-    "notes": ""
-  },
-  {
-    "detail_id": "4ca2a811-b429-4b8e-9876-21fb5b24416e",
-    "report_id": "b8889308-a5c1-4c37-b794-7a67d8618677",
-    "skill_id": "5b47e3aa-3953-4b52-9323-fe206836fb27",
-    "status": "Missing",
-    "user_proficiency": null,
-    "job_proficiency": null,
-    "similarity_score": 0.0,
-    "notes": ""
-  },
-  {
-    "detail_id": "af356050-ffab-4770-914d-0d6569da6646",
-    "report_id": "b8889308-a5c1-4c37-b794-7a67d8618677",
-    "skill_id": "784a519e-c6dd-4ad4-aa1f-2ed96e5b39ad",
-    "status": "Missing",
-    "user_proficiency": null,
-    "job_proficiency": null,
-    "similarity_score": 0.0,
-    "notes": ""
-  },
-  {
-    "detail_id": "f79f4bb0-9163-49da-9574-2ae4052164f9",
-    "report_id": "b8889308-a5c1-4c37-b794-7a67d8618677",
-    "skill_id": "94439698-7067-4998-a1f1-bea5dc464d27",
-    "status": "Missing",
-    "user_proficiency": null,
-    "job_proficiency": null,
-    "similarity_score": 0.0,
-    "notes": ""
-  },
-  {
-    "detail_id": "830dba2b-5c58-4dc5-981b-3c1eda7220e4",
-    "report_id": "b8889308-a5c1-4c37-b794-7a67d8618677",
-    "skill_id": "df973507-6358-4c5e-b5db-b154bcfa2778",
-    "status": "Missing",
-    "user_proficiency": null,
-    "job_proficiency": null,
-    "similarity_score": 0.0,
-    "notes": ""
-  },
-  {
-    "detail_id": "115e62eb-a421-42a8-9892-43f5d8d3406d",
-    "report_id": "b8889308-a5c1-4c37-b794-7a67d8618677",
-    "skill_id": "77f9ed63-728c-488c-8518-7eb73d5a1c51",
-    "status": "Missing",
-    "user_proficiency": null,
-    "job_proficiency": null,
-    "similarity_score": 0.0,
-    "notes": ""
-  },
-  {
-    "detail_id": "715411cd-f697-413d-8494-1a0abc06742d",
-    "report_id": "b8889308-a5c1-4c37-b794-7a67d8618677",
-    "skill_id": "06bc54e1-7262-40a2-8243-05cfe7359667",
-    "status": "Missing",
-    "user_proficiency": null,
-    "job_proficiency": null,
-    "similarity_score": 0.0,
-    "notes": ""
-  },
-  {
-    "detail_id": "69099685-9724-4a97-b312-fee2488a2529",
-    "report_id": "b8889308-a5c1-4c37-b794-7a67d8618677",
-    "skill_id": "e3bd788a-f636-483d-98c2-ce63478ac9de",
+    "detail_id": "009df729-a0ca-417e-89b4-63b237610fb3",
+    "report_id": "494f2f8a-9a60-46ca-bd41-c80ba978f2da",
+    "skill_id": "735c8ce0-5821-4d08-a955-496acabbeb2a",
     "status": "Missing",
     "user_proficiency": null,
     "job_proficiency": null,

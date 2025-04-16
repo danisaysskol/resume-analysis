@@ -12,6 +12,8 @@ from markitdown import MarkItDown
 DATA_DIR = Path("db")
 RESUME_PDF = "db/resume.pdf"
 JOB_PDF = "db/job_description.pdf"
+USER_EXTRACTED_SKILLS_FILE = Path("data") / "user_extracted_skills.json"
+JOB_DESCRIPTION_SKILLS_FILE = Path("data") / "job_description_skills.json"
 OUTPUT_FILE = Path("data") / "gap_analysis_output.json"
 RESUME_MD = "data/resume.md"
 JOB_MD = "data/job_description.md"
@@ -45,7 +47,11 @@ def main():
         sys.exit(1)
     user_skills = extract_skills(resume, taxonomy)
     job_skills = extract_skills(job_desc, taxonomy)
-    gap = skill_gap_analysis(user_skills, job_skills)
+    with open(USER_EXTRACTED_SKILLS_FILE, "w", encoding="utf-8") as f:
+        json.dump(user_skills, f, indent=2, ensure_ascii=False)
+    with open(JOB_DESCRIPTION_SKILLS_FILE, "w", encoding="utf-8") as f:
+        json.dump(job_skills, f, indent=2, ensure_ascii=False)
+    gap = skill_gap_analysis(user_skills, job_skills, taxonomy)
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(gap, f, indent=2, ensure_ascii=False)
     print(f"Skill gap analysis complete. Results saved to {OUTPUT_FILE}")

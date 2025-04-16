@@ -10,7 +10,7 @@
       "Pandas"
     ],
     "source": "Standard",
-    "updated_at": "2025-04-16T21:09:16.178733"
+    "updated_at": "2025-04-16T21:20:46.308563"
   },
   {
     "skill_id": "2",
@@ -23,7 +23,7 @@
       "Vue.js"
     ],
     "source": "Standard",
-    "updated_at": "2025-04-16T21:09:16.250345"
+    "updated_at": "2025-04-16T21:20:46.384906"
   },
   {
     "skill_id": "3",
@@ -36,7 +36,7 @@
       "SQLite"
     ],
     "source": "Standard",
-    "updated_at": "2025-04-16T21:09:16.252006"
+    "updated_at": "2025-04-16T21:20:46.386432"
   },
   {
     "skill_id": "4",
@@ -49,7 +49,7 @@
       "PyTorch"
     ],
     "source": "Standard",
-    "updated_at": "2025-04-16T21:09:16.252578"
+    "updated_at": "2025-04-16T21:20:46.386961"
   },
   {
     "skill_id": "5",
@@ -62,7 +62,7 @@
       "Excel"
     ],
     "source": "Standard",
-    "updated_at": "2025-04-16T21:09:16.253041"
+    "updated_at": "2025-04-16T21:20:46.387417"
   },
   {
     "skill_id": "6",
@@ -75,7 +75,7 @@
       "Kanban"
     ],
     "source": "Standard",
-    "updated_at": "2025-04-16T21:09:16.253475"
+    "updated_at": "2025-04-16T21:20:46.387880"
   },
   {
     "skill_id": "7",
@@ -84,7 +84,7 @@
     "description": "Effective verbal and written communication.",
     "related_skills": [],
     "source": "Standard",
-    "updated_at": "2025-04-16T21:09:16.253881"
+    "updated_at": "2025-04-16T21:20:46.388289"
   },
   {
     "skill_id": "8",
@@ -93,7 +93,7 @@
     "description": "Approaching and resolving issues.",
     "related_skills": [],
     "source": "Standard",
-    "updated_at": "2025-04-16T21:09:16.254277"
+    "updated_at": "2025-04-16T21:20:46.388720"
   },
   {
     "skill_id": "9",
@@ -102,7 +102,7 @@
     "description": "Leading teams and projects.",
     "related_skills": [],
     "source": "Standard",
-    "updated_at": "2025-04-16T21:09:16.254668"
+    "updated_at": "2025-04-16T21:20:46.389131"
   },
   {
     "skill_id": "10",
@@ -115,7 +115,7 @@
       "GCP"
     ],
     "source": "Standard",
-    "updated_at": "2025-04-16T21:09:16.255051"
+    "updated_at": "2025-04-16T21:20:46.389545"
   },
   {
     "skill_id": "11",
@@ -128,7 +128,7 @@
       "Kubernetes"
     ],
     "source": "Standard",
-    "updated_at": "2025-04-16T21:09:16.255456"
+    "updated_at": "2025-04-16T21:20:46.389975"
   },
   {
     "skill_id": "12",
@@ -140,7 +140,7 @@
       "Encryption"
     ],
     "source": "Standard",
-    "updated_at": "2025-04-16T21:09:16.255878"
+    "updated_at": "2025-04-16T21:20:46.390569"
   },
   {
     "skill_id": "13",
@@ -152,7 +152,7 @@
       "JavaScript"
     ],
     "source": "Standard",
-    "updated_at": "2025-04-16T21:09:16.256280"
+    "updated_at": "2025-04-16T21:20:46.391232"
   },
   {
     "skill_id": "14",
@@ -164,7 +164,7 @@
       "JavaScript"
     ],
     "source": "Standard",
-    "updated_at": "2025-04-16T21:09:16.256680"
+    "updated_at": "2025-04-16T21:20:46.391816"
   },
   {
     "skill_id": "15",
@@ -173,7 +173,7 @@
     "description": "Efficient use of time and prioritization.",
     "related_skills": [],
     "source": "Standard",
-    "updated_at": "2025-04-16T21:09:16.257063"
+    "updated_at": "2025-04-16T21:20:46.392409"
   },
   {
     "skill_id": "16",
@@ -182,7 +182,7 @@
     "description": "Objective analysis and evaluation.",
     "related_skills": [],
     "source": "Standard",
-    "updated_at": "2025-04-16T21:09:16.257453"
+    "updated_at": "2025-04-16T21:20:46.392973"
   },
   {
     "skill_id": "17",
@@ -191,7 +191,7 @@
     "description": "Assisting and serving customers.",
     "related_skills": [],
     "source": "Standard",
-    "updated_at": "2025-04-16T21:09:16.257825"
+    "updated_at": "2025-04-16T21:20:46.393544"
   },
   {
     "skill_id": "18",
@@ -203,7 +203,7 @@
       "Accounting"
     ],
     "source": "Standard",
-    "updated_at": "2025-04-16T21:09:16.258235"
+    "updated_at": "2025-04-16T21:20:46.394138"
   },
   {
     "skill_id": "19",
@@ -215,7 +215,7 @@
       "Content Marketing"
     ],
     "source": "Standard",
-    "updated_at": "2025-04-16T21:09:16.258652"
+    "updated_at": "2025-04-16T21:20:46.394725"
   },
   {
     "skill_id": "20",
@@ -224,6 +224,6 @@
     "description": "Systematic investigation and study.",
     "related_skills": [],
     "source": "Standard",
-    "updated_at": "2025-04-16T21:09:16.259053"
+    "updated_at": "2025-04-16T21:20:46.395299"
   }
 ]

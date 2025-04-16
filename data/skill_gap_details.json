@@ -1,0 +1,102 @@
+[
+  {
+    "detail_id": "e77bea1e-fb12-46d0-8291-7dd93161e941",
+    "report_id": "3ff2666e-33c2-435c-9497-148c0ca0ea6a",
+    "skill_id": "2",
+    "status": "Matched",
+    "user_proficiency": "Proficient",
+    "job_proficiency": null,
+    "similarity_score": 1.0,
+    "notes": ""
+  },
+  {
+    "detail_id": "cbb719c6-2b98-47d8-b6d9-868f494b1e71",
+    "report_id": "3ff2666e-33c2-435c-9497-148c0ca0ea6a",
+    "skill_id": "4",
+    "status": "Matched",
+    "user_proficiency": "Proficient",
+    "job_proficiency": null,
+    "similarity_score": 1.0,
+    "notes": ""
+  },
+  {
+    "detail_id": "70a7d5f2-24c0-4c11-99ac-e847e307c592",
+    "report_id": "3ff2666e-33c2-435c-9497-148c0ca0ea6a",
+    "skill_id": "9",
+    "status": "Matched",
+    "user_proficiency": "Intermediate",
+    "job_proficiency": null,
+    "similarity_score": 1.0,
+    "notes": ""
+  },
+  {
+    "detail_id": "e66349b1-aaeb-43e4-8519-5385dc07a269",
+    "report_id": "3ff2666e-33c2-435c-9497-148c0ca0ea6a",
+    "skill_id": "10",
+    "status": "Matched",
+    "user_proficiency": "Advanced",
+    "job_proficiency": null,
+    "similarity_score": 1.0,
+    "notes": ""
+  },
+  {
+    "detail_id": "7ffa314a-81a4-4318-b0df-8a81354f43ec",
+    "report_id": "3ff2666e-33c2-435c-9497-148c0ca0ea6a",
+    "skill_id": "11",
+    "status": "Matched",
+    "user_proficiency": "Advanced",
+    "job_proficiency": null,
+    "similarity_score": 1.0,
+    "notes": ""
+  },
+  {
+    "detail_id": "f7e45e54-4ac8-401b-a398-b0f62698936b",
+    "report_id": "3ff2666e-33c2-435c-9497-148c0ca0ea6a",
+    "skill_id": "12",
+    "status": "Matched",
+    "user_proficiency": "Advanced",
+    "job_proficiency": null,
+    "similarity_score": 1.0,
+    "notes": ""
+  },
+  {
+    "detail_id": "a46de23d-9aee-454f-b473-d1372fecfc12",
+    "report_id": "3ff2666e-33c2-435c-9497-148c0ca0ea6a",
+    "skill_id": "13",
+    "status": "Matched",
+    "user_proficiency": "Intermediate",
+    "job_proficiency": null,
+    "similarity_score": 1.0,
+    "notes": ""
+  },
+  {
+    "detail_id": "aaaac871-9430-43f4-a08c-3eba834bd72f",
+    "report_id": "3ff2666e-33c2-435c-9497-148c0ca0ea6a",
+    "skill_id": "20",
+    "status": "Matched",
+    "user_proficiency": "Intermediate",
+    "job_proficiency": null,
+    "similarity_score": 1.0,
+    "notes": ""
+  },
+  {
+    "detail_id": "39622ff6-8702-4a76-ae3b-6cc57eff33c9",
+    "report_id": "3ff2666e-33c2-435c-9497-148c0ca0ea6a",
+    "skill_id": "1",
+    "status": "Missing",
+    "user_proficiency": null,
+    "job_proficiency": null,
+    "similarity_score": 0.0,
+    "notes": ""
+  },
+  {
+    "detail_id": "cbfab7d8-a473-48fe-8659-ace767bb727d",
+    "report_id": "3ff2666e-33c2-435c-9497-148c0ca0ea6a",
+    "skill_id": "15",
+    "status": "Missing",
+    "user_proficiency": null,
+    "job_proficiency": null,
+    "similarity_score": 0.0,
+    "notes": ""
+  }
+]

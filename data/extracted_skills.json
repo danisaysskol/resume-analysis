@@ -1,0 +1,192 @@
+[
+  {
+    "extracted_id": "98abfde6-213e-47db-bd0c-7e34ccec4152",
+    "source_type": "user_profile",
+    "source_id": "ff47ba92-8a06-4251-969a-f70a536fddb0",
+    "skill_id": "2",
+    "raw_text": "Java",
+    "confidence": 1.0,
+    "proficiency": "Proficient",
+    "extracted_at": "2025-04-16T20:16:55.755162"
+  },
+  {
+    "extracted_id": "61ec2bba-2d19-4604-8b57-e8d6b4d5820c",
+    "source_type": "user_profile",
+    "source_id": "ff47ba92-8a06-4251-969a-f70a536fddb0",
+    "skill_id": "4",
+    "raw_text": "SQL",
+    "confidence": 1.0,
+    "proficiency": "Proficient",
+    "extracted_at": "2025-04-16T20:16:55.755238"
+  },
+  {
+    "extracted_id": "7b74cc87-066d-4e43-b827-118516564e06",
+    "source_type": "user_profile",
+    "source_id": "ff47ba92-8a06-4251-969a-f70a536fddb0",
+    "skill_id": "9",
+    "raw_text": "Project Management",
+    "confidence": 1.0,
+    "proficiency": "Intermediate",
+    "extracted_at": "2025-04-16T20:16:55.755270"
+  },
+  {
+    "extracted_id": "e4867a78-530e-4e89-be01-a1b443445afb",
+    "source_type": "user_profile",
+    "source_id": "ff47ba92-8a06-4251-969a-f70a536fddb0",
+    "skill_id": "10",
+    "raw_text": "Communication",
+    "confidence": 1.0,
+    "proficiency": "Advanced",
+    "extracted_at": "2025-04-16T20:16:55.755296"
+  },
+  {
+    "extracted_id": "cd990714-bab8-429d-a275-bc92d457e35a",
+    "source_type": "user_profile",
+    "source_id": "ff47ba92-8a06-4251-969a-f70a536fddb0",
+    "skill_id": "11",
+    "raw_text": "Teamwork",
+    "confidence": 1.0,
+    "proficiency": "Advanced",
+    "extracted_at": "2025-04-16T20:16:55.755321"
+  },
+  {
+    "extracted_id": "46bd9937-56b4-409a-a787-7bff6f8d1124",
+    "source_type": "user_profile",
+    "source_id": "ff47ba92-8a06-4251-969a-f70a536fddb0",
+    "skill_id": "12",
+    "raw_text": "Problem Solving",
+    "confidence": 1.0,
+    "proficiency": "Advanced",
+    "extracted_at": "2025-04-16T20:16:55.755345"
+  },
+  {
+    "extracted_id": "c230d3c3-d520-4147-be4f-a2d6fb4aa86f",
+    "source_type": "user_profile",
+    "source_id": "ff47ba92-8a06-4251-969a-f70a536fddb0",
+    "skill_id": "13",
+    "raw_text": "Leadership",
+    "confidence": 1.0,
+    "proficiency": "Intermediate",
+    "extracted_at": "2025-04-16T20:16:55.755377"
+  },
+  {
+    "extracted_id": "5fd26fb2-354c-4b5a-a3f0-5cc44655b879",
+    "source_type": "user_profile",
+    "source_id": "ff47ba92-8a06-4251-969a-f70a536fddb0",
+    "skill_id": "19",
+    "raw_text": "Data Analysis",
+    "confidence": 1.0,
+    "proficiency": "Intermediate",
+    "extracted_at": "2025-04-16T20:16:55.755400"
+  },
+  {
+    "extracted_id": "35afa4e6-ee20-4ae6-800e-329838033b5e",
+    "source_type": "user_profile",
+    "source_id": "ff47ba92-8a06-4251-969a-f70a536fddb0",
+    "skill_id": "20",
+    "raw_text": "Time Management",
+    "confidence": 1.0,
+    "proficiency": "Intermediate",
+    "extracted_at": "2025-04-16T20:16:55.755422"
+  },
+  {
+    "extracted_id": "b7d114d2-2328-4e13-b8b1-4f3b79cbf487",
+    "source_type": "job_description",
+    "source_id": "5ecb33a6-c213-4cc8-96b5-4c096e88b8dd",
+    "skill_id": "1",
+    "raw_text": "Python",
+    "confidence": 1.0,
+    "proficiency": "Intermediate to Advanced",
+    "extracted_at": "2025-04-16T20:16:55.756101"
+  },
+  {
+    "extracted_id": "02cd3f63-2aa6-433b-a57e-d519f1369c6a",
+    "source_type": "job_description",
+    "source_id": "5ecb33a6-c213-4cc8-96b5-4c096e88b8dd",
+    "skill_id": "2",
+    "raw_text": "Java",
+    "confidence": 1.0,
+    "proficiency": "Intermediate to Advanced",
+    "extracted_at": "2025-04-16T20:16:55.756150"
+  },
+  {
+    "extracted_id": "6a9c7738-5199-416e-9d13-c647d0ceddc8",
+    "source_type": "job_description",
+    "source_id": "5ecb33a6-c213-4cc8-96b5-4c096e88b8dd",
+    "skill_id": "4",
+    "raw_text": "SQL",
+    "confidence": 1.0,
+    "proficiency": "Intermediate",
+    "extracted_at": "2025-04-16T20:16:55.756179"
+  },
+  {
+    "extracted_id": "92bd2bb2-cd46-4a70-a66e-39081998470d",
+    "source_type": "job_description",
+    "source_id": "5ecb33a6-c213-4cc8-96b5-4c096e88b8dd",
+    "skill_id": "9",
+    "raw_text": "Project Management",
+    "confidence": 1.0,
+    "proficiency": "Intermediate",
+    "extracted_at": "2025-04-16T20:16:55.756204"
+  },
+  {
+    "extracted_id": "2106df60-4c0f-48b6-97ce-9e9091edbf61",
+    "source_type": "job_description",
+    "source_id": "5ecb33a6-c213-4cc8-96b5-4c096e88b8dd",
+    "skill_id": "10",
+    "raw_text": "Communication",
+    "confidence": 1.0,
+    "proficiency": "Advanced",
+    "extracted_at": "2025-04-16T20:16:55.756228"
+  },
+  {
+    "extracted_id": "6413b57d-3883-42d2-bf38-dc0eba763d7d",
+    "source_type": "job_description",
+    "source_id": "5ecb33a6-c213-4cc8-96b5-4c096e88b8dd",
+    "skill_id": "11",
+    "raw_text": "Teamwork",
+    "confidence": 1.0,
+    "proficiency": "Advanced",
+    "extracted_at": "2025-04-16T20:16:55.756252"
+  },
+  {
+    "extracted_id": "1b7d9be4-2c72-470f-b4cd-f9f798095d63",
+    "source_type": "job_description",
+    "source_id": "5ecb33a6-c213-4cc8-96b5-4c096e88b8dd",
+    "skill_id": "12",
+    "raw_text": "Problem Solving",
+    "confidence": 1.0,
+    "proficiency": "Advanced",
+    "extracted_at": "2025-04-16T20:16:55.756278"
+  },
+  {
+    "extracted_id": "5b002711-5014-4588-b28c-1dfeb52ab014",
+    "source_type": "job_description",
+    "source_id": "5ecb33a6-c213-4cc8-96b5-4c096e88b8dd",
+    "skill_id": "13",
+    "raw_text": "Leadership",
+    "confidence": 1.0,
+    "proficiency": "Intermediate",
+    "extracted_at": "2025-04-16T20:16:55.756301"
+  },
+  {
+    "extracted_id": "2bbaeafa-1682-4985-9aec-3a0ddd907a5d",
+    "source_type": "job_description",
+    "source_id": "5ecb33a6-c213-4cc8-96b5-4c096e88b8dd",
+    "skill_id": "15",
+    "raw_text": "Git",
+    "confidence": 1.0,
+    "proficiency": "Intermediate",
+    "extracted_at": "2025-04-16T20:16:55.756324"
+  },
+  {
+    "extracted_id": "d6879125-d5dd-4fed-bcca-6819a9ef414e",
+    "source_type": "job_description",
+    "source_id": "5ecb33a6-c213-4cc8-96b5-4c096e88b8dd",
+    "skill_id": "20",
+    "raw_text": "Time Management",
+    "confidence": 1.0,
+    "proficiency": "Intermediate",
+    "extracted_at": "2025-04-16T20:16:55.756344"
+  }
+]

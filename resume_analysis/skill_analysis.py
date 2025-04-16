@@ -16,7 +16,7 @@ def extract_skills(text, taxonomy):
     prompt = f"""
 Given the following text, extract all relevant skills (from the taxonomy below) and estimate proficiency if possible.\n
 Text: {text}\n
-Skills Taxonomy: {', '.join(taxonomy)}\n
+Skills Taxonomy: {', '.join(t['name'] for t in taxonomy)}\n
 Return a JSON list of extracted skills, each with a proficiency level if possible.
 """
     response = client.responses.create(

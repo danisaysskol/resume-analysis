@@ -1,139 +1,148 @@
 import uuid
 from datetime import datetime
+from pathlib import Path
+from markitdown import MarkItDown
 from resume_analysis.models import (
     UserProfile, JobDescription, SkillTaxonomy, ExtractedSkill, SkillGapReport, SkillGapDetail, Base
 )
 from resume_analysis.db_utils import create_all_tables, SessionLocal, export_table_to_json
+from resume_analysis.taxonomy import load_taxonomy
+from resume_analysis.skill_analysis import extract_skills, skill_gap_analysis
+import json
 
-# --- Helper for UUIDs ---
 def new_id():
     return str(uuid.uuid4())
+
+def pdf_to_text_and_md(pdf_path, md_path):
+    md = MarkItDown(enable_plugins=False)
+    result = md.convert(pdf_path)
+    with open(md_path, "w", encoding="utf-8") as f:
+        f.write(result.markdown)
+    return result.text_content
 
 def seed_and_export():
     create_all_tables()
     session = SessionLocal()
 
-    # --- Seed SkillTaxonomy ---
-    skills = [
-        SkillTaxonomy(skill_id=new_id(), name="Python", category="Programming", description="Programming language", source="Custom"),
-        SkillTaxonomy(skill_id=new_id(), name="Communication", category="Soft Skill", description="Oral and written communication", source="Custom"),
-        SkillTaxonomy(skill_id=new_id(), name="Project Management", category="Management", description="Managing projects", source="Custom"),
-    ]
-    for s in skills:
-        session.add(s)
+    # --- Load Skill Taxonomy from JSON ---
+    taxonomy = load_taxonomy()
+    taxonomy_objs = []
+    taxonomy_map = {}
+    for t in taxonomy:
+        obj = SkillTaxonomy(
+            skill_id=t.get("skill_id", new_id()),
+            name=t["name"],
+            category=t.get("category"),
+            description=t.get("description"),
+            related_skills=t.get("related_skills"),
+            source=t.get("source", "Custom"),
+            updated_at=datetime.utcnow(),
+        )
+        taxonomy_objs.append(obj)
+        taxonomy_map[obj.name] = obj.skill_id
+        session.merge(obj)
     session.commit()
 
-    # --- Seed UserProfile ---
+    # --- Parse resume.pdf and job_description.pdf ---
+    resume_text = pdf_to_text_and_md("db/resume.pdf", "data/resume.md")
+    job_text = pdf_to_text_and_md("db/job_description.pdf", "data/job_description.md")
+
+    # --- Create UserProfile and JobDescription from real data ---
     user = UserProfile(
         user_id=new_id(),
-        name="Ali Khan",
-        email="ali.khan@email.com",
-        resume_text="Experienced Python developer with strong communication and project management skills.",
-        profile_url="https://linkedin.com/in/alikhan",
+        name="",  # Optionally parse from resume_text
+        email="", # Optionally parse from resume_text
+        resume_text=resume_text,
+        profile_url="",
         created_at=datetime.utcnow()
     )
     session.add(user)
     session.commit()
 
-    # --- Seed JobDescription ---
     job = JobDescription(
         job_id=new_id(),
-        title="Backend Engineer",
-        company="PakTech Solutions",
-        description_text="Looking for a Python backend engineer with project management experience and excellent communication skills.",
-        location="Lahore, Pakistan",
+        title="",  # Optionally parse from job_text
+        company="", # Optionally parse from job_text
+        description_text=job_text,
+        location="",
         created_at=datetime.utcnow()
     )
     session.add(job)
     session.commit()
 
-    # --- Map skill names to skill_ids ---
-    skill_map = {s.name: s.skill_id for s in session.query(SkillTaxonomy).all()}
+    # --- Extract skills using LLM/NLP ---
+    user_skills_raw = extract_skills(resume_text, taxonomy)
+    job_skills_raw = extract_skills(job_text, taxonomy)
 
-    # --- Seed ExtractedSkill for user and job ---
-    user_skills = [
-        ExtractedSkill(
+    # --- Insert ExtractedSkill entities ---
+    extracted_skills = []
+    for s in user_skills_raw:
+        skill_id = taxonomy_map.get(s["skill"], new_id())
+        extracted_skills.append(ExtractedSkill(
             extracted_id=new_id(),
             source_type="user_profile",
             source_id=user.user_id,
-            skill_id=skill_map["Python"],
-            raw_text="Python",
-            confidence=0.98,
-            proficiency="Expert",
+            skill_id=skill_id,
+            raw_text=s.get("raw_text", s["skill"]),
+            confidence=s.get("confidence", 1.0),
+            proficiency=s.get("proficiency"),
             extracted_at=datetime.utcnow()
-        ),
-        ExtractedSkill(
-            extracted_id=new_id(),
-            source_type="user_profile",
-            source_id=user.user_id,
-            skill_id=skill_map["Communication"],
-            raw_text="communication",
-            confidence=0.95,
-            proficiency="Advanced",
-            extracted_at=datetime.utcnow()
-        ),
-    ]
-    job_skills = [
-        ExtractedSkill(
+        ))
+    for s in job_skills_raw:
+        skill_id = taxonomy_map.get(s["skill"], new_id())
+        extracted_skills.append(ExtractedSkill(
             extracted_id=new_id(),
             source_type="job_description",
             source_id=job.job_id,
-            skill_id=skill_map["Python"],
-            raw_text="Python",
-            confidence=0.99,
-            proficiency="Required",
+            skill_id=skill_id,
+            raw_text=s.get("raw_text", s["skill"]),
+            confidence=s.get("confidence", 1.0),
+            proficiency=s.get("proficiency"),
             extracted_at=datetime.utcnow()
-        ),
-        ExtractedSkill(
-            extracted_id=new_id(),
-            source_type="job_description",
-            source_id=job.job_id,
-            skill_id=skill_map["Project Management"],
-            raw_text="project management",
-            confidence=0.96,
-            proficiency="Required",
-            extracted_at=datetime.utcnow()
-        ),
-    ]
-    for s in user_skills + job_skills:
+        ))
+    for s in extracted_skills:
         session.add(s)
     session.commit()
 
-    # --- Seed SkillGapReport ---
+    # --- Skill Gap Analysis ---
+    gap = skill_gap_analysis(user_skills_raw, job_skills_raw)
     report = SkillGapReport(
         report_id=new_id(),
         user_id=user.user_id,
         job_id=job.job_id,
         generated_at=datetime.utcnow(),
-        match_score=85.0,
-        summary="User matches Python and communication, missing project management."
+        match_score=0.0,  # Optionally compute
+        summary=""  # Optionally fill
     )
     session.add(report)
     session.commit()
 
-    # --- Seed SkillGapDetail ---
-    gap_details = [
-        SkillGapDetail(
+    # --- SkillGapDetail ---
+    gap_details = []
+    for s in gap["existing_skills"]:
+        skill_id = taxonomy_map.get(s["skill"], new_id())
+        gap_details.append(SkillGapDetail(
             detail_id=new_id(),
             report_id=report.report_id,
-            skill_id=skill_map["Python"],
+            skill_id=skill_id,
             status="Matched",
-            user_proficiency="Expert",
-            job_proficiency="Required",
+            user_proficiency=s.get("proficiency"),
+            job_proficiency=None,
             similarity_score=1.0,
-            notes="User is expert in Python as required."
-        ),
-        SkillGapDetail(
+            notes=""
+        ))
+    for s in gap["missing_skills"]:
+        skill_id = taxonomy_map.get(s["skill"], new_id())
+        gap_details.append(SkillGapDetail(
             detail_id=new_id(),
             report_id=report.report_id,
-            skill_id=skill_map["Project Management"],
+            skill_id=skill_id,
             status="Missing",
             user_proficiency=None,
-            job_proficiency="Required",
+            job_proficiency=None,
             similarity_score=0.0,
-            notes="User does not mention project management."
-        ),
-    ]
+            notes=""
+        ))
     for d in gap_details:
         session.add(d)
     session.commit()

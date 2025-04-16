@@ -1,0 +1,182 @@
+[
+  {
+    "skill_id": "1",
+    "name": "Python",
+    "category": "Programming Language",
+    "description": "A high-level programming language for general-purpose programming.",
+    "related_skills": null,
+    "source": "Core",
+    "updated_at": "2025-04-16T20:16:43.052046"
+  },
+  {
+    "skill_id": "2",
+    "name": "Java",
+    "category": "Programming Language",
+    "description": "A widely-used object-oriented programming language.",
+    "related_skills": null,
+    "source": "Core",
+    "updated_at": "2025-04-16T20:16:43.133128"
+  },
+  {
+    "skill_id": "3",
+    "name": "JavaScript",
+    "category": "Programming Language",
+    "description": "A scripting language for web development.",
+    "related_skills": null,
+    "source": "Core",
+    "updated_at": "2025-04-16T20:16:43.134828"
+  },
+  {
+    "skill_id": "4",
+    "name": "SQL",
+    "category": "Database",
+    "description": "Structured Query Language for managing relational databases.",
+    "related_skills": null,
+    "source": "Core",
+    "updated_at": "2025-04-16T20:16:43.135456"
+  },
+  {
+    "skill_id": "5",
+    "name": "HTML",
+    "category": "Web",
+    "description": "Markup language for creating web pages.",
+    "related_skills": null,
+    "source": "Core",
+    "updated_at": "2025-04-16T20:16:43.135886"
+  },
+  {
+    "skill_id": "6",
+    "name": "CSS",
+    "category": "Web",
+    "description": "Stylesheet language for describing the look of web pages.",
+    "related_skills": null,
+    "source": "Core",
+    "updated_at": "2025-04-16T20:16:43.136302"
+  },
+  {
+    "skill_id": "7",
+    "name": "Django",
+    "category": "Framework",
+    "description": "Python web framework for rapid development.",
+    "related_skills": null,
+    "source": "Core",
+    "updated_at": "2025-04-16T20:16:43.136714"
+  },
+  {
+    "skill_id": "8",
+    "name": "React",
+    "category": "Framework",
+    "description": "JavaScript library for building user interfaces.",
+    "related_skills": null,
+    "source": "Core",
+    "updated_at": "2025-04-16T20:16:43.137114"
+  },
+  {
+    "skill_id": "9",
+    "name": "Project Management",
+    "category": "Management",
+    "description": "Planning, executing, and overseeing projects.",
+    "related_skills": null,
+    "source": "Core",
+    "updated_at": "2025-04-16T20:16:43.137509"
+  },
+  {
+    "skill_id": "10",
+    "name": "Communication",
+    "category": "Soft Skill",
+    "description": "Effective verbal and written communication.",
+    "related_skills": null,
+    "source": "Core",
+    "updated_at": "2025-04-16T20:16:43.137897"
+  },
+  {
+    "skill_id": "11",
+    "name": "Teamwork",
+    "category": "Soft Skill",
+    "description": "Ability to work collaboratively in a team.",
+    "related_skills": null,
+    "source": "Core",
+    "updated_at": "2025-04-16T20:16:43.138310"
+  },
+  {
+    "skill_id": "12",
+    "name": "Problem Solving",
+    "category": "Soft Skill",
+    "description": "Ability to find solutions to complex issues.",
+    "related_skills": null,
+    "source": "Core",
+    "updated_at": "2025-04-16T20:16:43.138731"
+  },
+  {
+    "skill_id": "13",
+    "name": "Leadership",
+    "category": "Management",
+    "description": "Ability to lead teams and projects.",
+    "related_skills": null,
+    "source": "Core",
+    "updated_at": "2025-04-16T20:16:43.139135"
+  },
+  {
+    "skill_id": "14",
+    "name": "AWS",
+    "category": "Cloud",
+    "description": "Amazon Web Services cloud platform.",
+    "related_skills": null,
+    "source": "Core",
+    "updated_at": "2025-04-16T20:16:43.140379"
+  },
+  {
+    "skill_id": "15",
+    "name": "Git",
+    "category": "Tool",
+    "description": "Version control system for tracking changes.",
+    "related_skills": null,
+    "source": "Core",
+    "updated_at": "2025-04-16T20:16:43.140793"
+  },
+  {
+    "skill_id": "16",
+    "name": "Linux",
+    "category": "Operating System",
+    "description": "Open-source Unix-like operating system.",
+    "related_skills": null,
+    "source": "Core",
+    "updated_at": "2025-04-16T20:16:43.141174"
+  },
+  {
+    "skill_id": "17",
+    "name": "Docker",
+    "category": "Tool",
+    "description": "Platform for containerizing applications.",
+    "related_skills": null,
+    "source": "Core",
+    "updated_at": "2025-04-16T20:16:43.141552"
+  },
+  {
+    "skill_id": "18",
+    "name": "Machine Learning",
+    "category": "AI/Data",
+    "description": "Techniques for building predictive models.",
+    "related_skills": null,
+    "source": "Core",
+    "updated_at": "2025-04-16T20:16:43.141960"
+  },
+  {
+    "skill_id": "19",
+    "name": "Data Analysis",
+    "category": "AI/Data",
+    "description": "Analyzing data to extract insights.",
+    "related_skills": null,
+    "source": "Core",
+    "updated_at": "2025-04-16T20:16:43.142454"
+  },
+  {
+    "skill_id": "20",
+    "name": "Time Management",
+    "category": "Soft Skill",
+    "description": "Efficiently managing one's time and priorities.",
+    "related_skills": null,
+    "source": "Core",
+    "updated_at": "2025-04-16T20:16:43.142869"
+  }
+]

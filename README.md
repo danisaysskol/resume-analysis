@@ -6,8 +6,8 @@ A robust, scalable backend for skill gap analysis, designed for integration with
 
 ## 🚀 Features
 - **PDF → Markdown/Text**: Converts resumes and job descriptions from PDF to markdown and plain text.
-- **Skill Extraction**: Uses NLP/LLM to extract skills, proficiency, and match from unstructured text.
-- **Dynamic Skill Taxonomy**: Supports ESCO/O*NET/Custom skills, with categories, related skills, and source tracking.
+- **Skill Extraction**: Uses OpenAI Agents SDK (agent-based, output_type with Pydantic models) to extract skills, proficiency, and match from unstructured text.
+- **Dynamic Skill Taxonomy**: Maintained in `data/skills_taxonomy.txt` (editable plain text). The pipeline parses this file, generates `skills_taxonomy.json` for compatibility, but always uses `.txt` as the source of truth.
 - **Skill Gap Reports**: Identifies matched, missing, and transferable skills between user and job.
 - **Normalized Database**: Stores all entities in SQLite (easy to migrate to Postgres).
 - **JSON Exports**: All tables exportable as JSON for dashboard/API consumption.
@@ -22,6 +22,8 @@ A robust, scalable backend for skill gap analysis, designed for integration with
 resume-analysis/
 │
 ├── data/                # JSON exports, taxonomy, and sample data
+│   ├── skills_taxonomy.txt   # Editable skill taxonomy (source of truth)
+│   ├── skills_taxonomy.json  # Auto-generated from .txt for compatibility
 ├── db/                  # Database artifacts (SQLite DB)
 ├── resume_analysis/     # Main Python package (all core logic)
 │   ├── __init__.py
@@ -98,14 +100,14 @@ make clean
 - **JSON Data**: All tables exported as JSON in `data/` (see `user_profiles.json`, `job_descriptions.json`, etc).
 - **Database**: Full normalized SQLite DB in `db/resume_analysis.db` (can be migrated to Postgres).
 - **Schema**: See models in `resume_analysis/models.py` and above overview.
-- **Sample Data**: Run `make test` to generate realistic sample data for UI development.
+- **Sample Data**: Run `make test` to generate realistic sample data for UI development. The pipeline uses agent-based extraction (OpenAI Agents SDK) for all structured outputs.
 - **Resume/Job Uploads**: Place PDFs in the project root or as configured.
 
 ---
 
 ## 📝 Customization & Scaling
 - **Switch to Postgres**: Change the SQLAlchemy DB URL in `resume_analysis/db_utils.py`.
-- **Add Skills/Taxonomies**: Update `data/skills_taxonomy.json` or extend taxonomy loader.
+- **Add Skills/Taxonomies**: Edit `data/skills_taxonomy.txt` (plain text, one skill per line). The pipeline will auto-convert it to JSON for compatibility, but never loads the .json file directly.
 - **Integrate API**: Extend the package with FastAPI/Flask for production endpoints.
 - **Dashboard**: Use JSON or DB as your data source for charts, tables, and analytics.
 

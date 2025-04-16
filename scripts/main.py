@@ -15,7 +15,7 @@ JOB_PDF = "db/job_description.pdf"
 OUTPUT_FILE = Path("data") / "gap_analysis_output.json"
 RESUME_MD = "data/resume.md"
 JOB_MD = "data/job_description.md"
-JOB_MD = "job_description.md"
+
 
 # Convert PDF to markdown and extract plain text, saving markdown as well
 def pdf_to_text_and_md(pdf_path, md_path):

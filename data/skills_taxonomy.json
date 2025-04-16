@@ -3,140 +3,207 @@
     "skill_id": "1",
     "name": "Python",
     "category": "Programming Language",
-    "description": "A high-level programming language for general-purpose programming.",
-    "source": "Core"
+    "description": "General-purpose programming language.",
+    "related_skills": [
+      "Django",
+      "Flask",
+      "Pandas"
+    ],
+    "source": "Standard"
   },
   {
     "skill_id": "2",
-    "name": "Java",
+    "name": "JavaScript",
     "category": "Programming Language",
-    "description": "A widely-used object-oriented programming language.",
-    "source": "Core"
+    "description": "Scripting language for web development.",
+    "related_skills": [
+      "React",
+      "Node.js",
+      "Vue.js"
+    ],
+    "source": "Standard"
   },
   {
     "skill_id": "3",
-    "name": "JavaScript",
-    "category": "Programming Language",
-    "description": "A scripting language for web development.",
-    "source": "Core"
+    "name": "SQL",
+    "category": "Database",
+    "description": "Language for querying databases.",
+    "related_skills": [
+      "PostgreSQL",
+      "MySQL",
+      "SQLite"
+    ],
+    "source": "Standard"
   },
   {
     "skill_id": "4",
-    "name": "SQL",
-    "category": "Database",
-    "description": "Structured Query Language for managing relational databases.",
-    "source": "Core"
+    "name": "Machine Learning",
+    "category": "AI/ML",
+    "description": "Techniques for building predictive models.",
+    "related_skills": [
+      "scikit-learn",
+      "TensorFlow",
+      "PyTorch"
+    ],
+    "source": "Standard"
   },
   {
     "skill_id": "5",
-    "name": "HTML",
-    "category": "Web",
-    "description": "Markup language for creating web pages.",
-    "source": "Core"
+    "name": "Data Analysis",
+    "category": "Data Science",
+    "description": "Techniques for analyzing data.",
+    "related_skills": [
+      "Pandas",
+      "NumPy",
+      "Excel"
+    ],
+    "source": "Standard"
   },
   {
     "skill_id": "6",
-    "name": "CSS",
-    "category": "Web",
-    "description": "Stylesheet language for describing the look of web pages.",
-    "source": "Core"
+    "name": "Project Management",
+    "category": "Management",
+    "description": "Managing projects and teams.",
+    "related_skills": [
+      "Agile",
+      "Scrum",
+      "Kanban"
+    ],
+    "source": "Standard"
   },
   {
     "skill_id": "7",
-    "name": "Django",
-    "category": "Framework",
-    "description": "Python web framework for rapid development.",
-    "source": "Core"
-  },
-  {
-    "skill_id": "8",
-    "name": "React",
-    "category": "Framework",
-    "description": "JavaScript library for building user interfaces.",
-    "source": "Core"
-  },
-  {
-    "skill_id": "9",
-    "name": "Project Management",
-    "category": "Management",
-    "description": "Planning, executing, and overseeing projects.",
-    "source": "Core"
-  },
-  {
-    "skill_id": "10",
     "name": "Communication",
     "category": "Soft Skill",
     "description": "Effective verbal and written communication.",
-    "source": "Core"
+    "related_skills": [],
+    "source": "Standard"
+  },
+  {
+    "skill_id": "8",
+    "name": "Problem Solving",
+    "category": "Soft Skill",
+    "description": "Approaching and resolving issues.",
+    "related_skills": [],
+    "source": "Standard"
+  },
+  {
+    "skill_id": "9",
+    "name": "Leadership",
+    "category": "Soft Skill",
+    "description": "Leading teams and projects.",
+    "related_skills": [],
+    "source": "Standard"
+  },
+  {
+    "skill_id": "10",
+    "name": "Cloud Computing",
+    "category": "IT",
+    "description": "Using remote servers for computation/storage.",
+    "related_skills": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "source": "Standard"
   },
   {
     "skill_id": "11",
-    "name": "Teamwork",
-    "category": "Soft Skill",
-    "description": "Ability to work collaboratively in a team.",
-    "source": "Core"
+    "name": "DevOps",
+    "category": "IT",
+    "description": "Practices for automating IT operations.",
+    "related_skills": [
+      "CI/CD",
+      "Docker",
+      "Kubernetes"
+    ],
+    "source": "Standard"
   },
   {
     "skill_id": "12",
-    "name": "Problem Solving",
-    "category": "Soft Skill",
-    "description": "Ability to find solutions to complex issues.",
-    "source": "Core"
+    "name": "Cybersecurity",
+    "category": "IT",
+    "description": "Protecting systems and data from threats.",
+    "related_skills": [
+      "Network Security",
+      "Encryption"
+    ],
+    "source": "Standard"
   },
   {
     "skill_id": "13",
-    "name": "Leadership",
-    "category": "Management",
-    "description": "Ability to lead teams and projects.",
-    "source": "Core"
+    "name": "HTML",
+    "category": "Web Development",
+    "description": "Markup language for web pages.",
+    "related_skills": [
+      "CSS",
+      "JavaScript"
+    ],
+    "source": "Standard"
   },
   {
     "skill_id": "14",
-    "name": "AWS",
-    "category": "Cloud",
-    "description": "Amazon Web Services cloud platform.",
-    "source": "Core"
+    "name": "CSS",
+    "category": "Web Development",
+    "description": "Styling language for web pages.",
+    "related_skills": [
+      "HTML",
+      "JavaScript"
+    ],
+    "source": "Standard"
   },
   {
     "skill_id": "15",
-    "name": "Git",
-    "category": "Tool",
-    "description": "Version control system for tracking changes.",
-    "source": "Core"
+    "name": "Time Management",
+    "category": "Soft Skill",
+    "description": "Efficient use of time and prioritization.",
+    "related_skills": [],
+    "source": "Standard"
   },
   {
     "skill_id": "16",
-    "name": "Linux",
-    "category": "Operating System",
-    "description": "Open-source Unix-like operating system.",
-    "source": "Core"
+    "name": "Critical Thinking",
+    "category": "Soft Skill",
+    "description": "Objective analysis and evaluation.",
+    "related_skills": [],
+    "source": "Standard"
   },
   {
     "skill_id": "17",
-    "name": "Docker",
-    "category": "Tool",
-    "description": "Platform for containerizing applications.",
-    "source": "Core"
+    "name": "Customer Service",
+    "category": "Business",
+    "description": "Assisting and serving customers.",
+    "related_skills": [],
+    "source": "Standard"
   },
   {
     "skill_id": "18",
-    "name": "Machine Learning",
-    "category": "AI/Data",
-    "description": "Techniques for building predictive models.",
-    "source": "Core"
+    "name": "Financial Analysis",
+    "category": "Business",
+    "description": "Analyzing financial data.",
+    "related_skills": [
+      "Excel",
+      "Accounting"
+    ],
+    "source": "Standard"
   },
   {
     "skill_id": "19",
-    "name": "Data Analysis",
-    "category": "AI/Data",
-    "description": "Analyzing data to extract insights.",
-    "source": "Core"
+    "name": "Marketing",
+    "category": "Business",
+    "description": "Promoting products and services.",
+    "related_skills": [
+      "SEO",
+      "Content Marketing"
+    ],
+    "source": "Standard"
   },
   {
     "skill_id": "20",
-    "name": "Time Management",
-    "category": "Soft Skill",
-    "description": "Efficiently managing one's time and priorities.",
-    "source": "Core"
+    "name": "Research",
+    "category": "Academic",
+    "description": "Systematic investigation and study.",
+    "related_skills": [],
+    "source": "Standard"
   }
 ]

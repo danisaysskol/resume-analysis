@@ -1,0 +1,23 @@
+# Skill Taxonomy (Plain Text)
+# Format: skill_id | name | category | description | related_skills | source
+
+1 | Python | Programming Language | General-purpose programming language. | ["Django", "Flask", "Pandas"] | Standard
+2 | JavaScript | Programming Language | Scripting language for web development. | ["React", "Node.js", "Vue.js"] | Standard
+3 | SQL | Database | Language for querying databases. | ["PostgreSQL", "MySQL", "SQLite"] | Standard
+4 | Machine Learning | AI/ML | Techniques for building predictive models. | ["scikit-learn", "TensorFlow", "PyTorch"] | Standard
+5 | Data Analysis | Data Science | Techniques for analyzing data. | ["Pandas", "NumPy", "Excel"] | Standard
+6 | Project Management | Management | Managing projects and teams. | ["Agile", "Scrum", "Kanban"] | Standard
+7 | Communication | Soft Skill | Effective verbal and written communication. | [] | Standard
+8 | Problem Solving | Soft Skill | Approaching and resolving issues. | [] | Standard
+9 | Leadership | Soft Skill | Leading teams and projects. | [] | Standard
+10 | Cloud Computing | IT | Using remote servers for computation/storage. | ["AWS", "Azure", "GCP"] | Standard
+11 | DevOps | IT | Practices for automating IT operations. | ["CI/CD", "Docker", "Kubernetes"] | Standard
+12 | Cybersecurity | IT | Protecting systems and data from threats. | ["Network Security", "Encryption"] | Standard
+13 | HTML | Web Development | Markup language for web pages. | ["CSS", "JavaScript"] | Standard
+14 | CSS | Web Development | Styling language for web pages. | ["HTML", "JavaScript"] | Standard
+15 | Time Management | Soft Skill | Efficient use of time and prioritization. | [] | Standard
+16 | Critical Thinking | Soft Skill | Objective analysis and evaluation. | [] | Standard
+17 | Customer Service | Business | Assisting and serving customers. | [] | Standard
+18 | Financial Analysis | Business | Analyzing financial data. | ["Excel", "Accounting"] | Standard
+19 | Marketing | Business | Promoting products and services. | ["SEO", "Content Marketing"] | Standard
+20 | Research | Academic | Systematic investigation and study. | [] | Standard
